@@ -1,0 +1,18 @@
+{
+  "name": "csgp-upsc-telegram-vercel",
+  "version": "1.0.0",
+  "description": "a telegram bot to help in upsc preparation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "telegram"
+  ],
+  "author": "adharshchottu",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.61.0"
+  }
+}
