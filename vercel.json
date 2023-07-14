@@ -1,0 +1,52 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "index.js",
+        "use": "@vercel/node"
+      },
+      {
+        "src": "test.js",
+        "use": "@vercel/node"
+      },
+      {
+        "src": "changeTitle.js",
+        "use": "@vercel/node"
+      },
+      {
+        "src": "quiz.js",
+        "use": "@vercel/node"
+      },
+      {
+        "src": "ethics_core.js",
+        "use": "@vercel/node"
+      },
+      {
+        "src": "geography.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/test",
+        "dest": "/test.js"
+      },
+      {
+        "src": "/changeTitle",
+        "dest": "/changeTitle.js"
+      },
+      {
+        "src": "/quiz",
+        "dest": "/quiz.js"
+      },
+      {
+        "src": "/ethics_core",
+        "dest": "/ethics_core.js"
+      },
+      {
+        "src": "/geography",
+        "dest": "/geography.js"
+      }
+    ]
+  }
+  
