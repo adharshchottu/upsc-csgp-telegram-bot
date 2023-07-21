@@ -13,18 +13,32 @@ const chatId = key.target_chat_id;
 // Set the new title for the group
 
 let daysLeft = (() => {
-  const currentDate = new Date();
-  const targetDate = new Date(2024,4,26);
-  const diffInMilliseconds = targetDate.getTime() - currentDate.getTime();
-  const daysDifference = Math.floor(
-    diffInMilliseconds / (1000 * 60 * 60 * 24)
-  );
+  function getCurrentDateIST() {
+    const currentTime = new Date();
+    const offset = currentTime.getTimezoneOffset();
+    const ISTOffset = 330; // IST is UTC+5:30
+    const currentTimeIST = new Date(currentTime.getTime() + (ISTOffset + offset) * 60000);
+    return currentTimeIST;
+  }
+
+  function getDaysLeft() {
+    const todayIST = getCurrentDateIST();
+    const targetDate = new Date('2024-05-26');
+    const timeDifference = targetDate.getTime() - todayIST.getTime();
+    const daysLeft = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
+    return daysLeft;
+  }
+
+  const daysDifference = getDaysLeft();
   if (daysDifference == 0) {
-    return `Prelims!`;
+    return `Prelims! 😇😱🥳`;
   } else if (daysDifference == 1) {
-    return `Tomorrow prelims`;
-  } else {
+    return `Tomorrow prelims 😱`;
+  } else if (daysDifference > 1){
     return `${daysDifference} days to prelims 🎯`;
+  }
+  else{
+    return `Target UPSC CSGP 😈`;
   }
 })();
 

@@ -13,18 +13,26 @@ const chatId = key.target_chat_id;
 
 // Function to send a poll for the current question
 async function sendQuizPoll() {
-    let daysLeft = (() => {
-        const currentDate = new Date();
-        const targetDate = new Date(2024, 4, 26);
-        const diffInMilliseconds = targetDate.getTime() - currentDate.getTime();
-        const daysDifference = Math.floor(
-            diffInMilliseconds / (1000 * 60 * 60 * 24)
-        );
-        return daysDifference;
-    })();
+    function getCurrentDateIST() {
+        const currentTime = new Date();
+        const offset = currentTime.getTimezoneOffset();
+        const ISTOffset = 330; // IST is UTC+5:30
+        const currentTimeIST = new Date(currentTime.getTime() + (ISTOffset + offset) * 60000);
+        return currentTimeIST;
+    }
+
+    function getDaysLeft() {
+        const todayIST = getCurrentDateIST();
+        const targetDate = new Date('2024-05-26');
+        const timeDifference = targetDate.getTime() - todayIST.getTime();
+        const daysLeft = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
+        return daysLeft;
+    }
+
+    let daysLeft = getDaysLeft();
     const day = (325 % daysLeft) * 4;
     const currentHour = new Date().getHours();
-    const currentQuarter = Math.floor(currentHour / 4);
+    const currentQuarter = Math.floor(currentHour / 5);
     const questionIndex = day + currentQuarter >= 549 ? (day + currentQuarter - 549 + 1) : day + currentQuarter;
 
     const currentQuestion = quizData[questionIndex];

@@ -165,11 +165,20 @@ function selectUtQuestionFunction() {
 // generate questions
 async function generateQuestion() {
     const questionsFunctions = [stateDistrictsQuestion(), selectUtQuestionFunction(), districtStateQuestion(), doesShareBorderWith(), doesNotShareBorderWith()]
-    const currentHour = new Date().getHours();
+    function getCurrentDateIST() {
+        const currentTime = new Date();
+        const offset = currentTime.getTimezoneOffset();
+        const ISTOffset = 330; // IST is UTC+5:30
+        const currentTimeIST = new Date(currentTime.getTime() + (ISTOffset + offset) * 60000);
+        return currentTimeIST;
+    }
+    const today = getCurrentDateIST();
+    const currentHour = today.getHours();
     const currentTimeSlot = Math.floor(currentHour / 4);
     console.log(currentTimeSlot)
     const questionObject = questionsFunctions[currentTimeSlot]
-    if (questionObject.options.length != 4) {
+    const containsOnlyUniqueItems = arr => arr.length === new Set(arr).size;
+    if (questionObject.options.length != 4 && containsOnlyUniqueItems(questionObject.options)) {
         generateQuestion()
     }
     else {
