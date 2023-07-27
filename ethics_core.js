@@ -453,7 +453,7 @@ let newText = ethicsQuestion.replace(/_*[\~`>#+=|{}.!-]/g, (match) => {
 // Call the 'setChatTitle' method to change the group title
 module.exports = async (req, res) => {
     try {
-        await bot.sendMessage(chatId, newText, { parse_mode: 'markdown' });
+        await bot.sendMessage(chatId, newText, { parse_mode: 'markdownv2' });
         console.log('Vercel sent an ethics question to Telegram');
         res.status(200).send('Vercel sent an ethics question to Telegram');
     } catch (error) {
