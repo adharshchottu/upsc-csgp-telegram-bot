@@ -8,7 +8,7 @@ const botToken = key.api_key;
 const bot = new TelegramBot(botToken);
 
 // Set the chat ID of the group you want to modify
-const chatId = key.target_chat_id;
+const chatId = key.test_chat;
 
 // Call the 'setChatTitle' method to change the group title
 module.exports = async (req, res) => {

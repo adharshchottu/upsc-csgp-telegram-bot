@@ -28,6 +28,10 @@
       {
         "src": "sendQuote.js",
         "use": "@vercel/node"
+      },
+      {
+        "src": "ancient.js",
+        "use": "@vercel/node"
       }
     ],
     "routes": [
@@ -54,6 +58,10 @@
       {
         "src": "/sendQuote",
         "dest": "/sendQuote.js"
+      },
+      {
+        "src": "/ancient",
+        "dest": "/ancient.js"
       }
     ]
   }
