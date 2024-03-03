@@ -1,6 +1,6 @@
 const TelegramBot = require('node-telegram-bot-api');
 const key = require('./key.json')
-const quizData = require('./data/ancient')
+const quizData = require('./data/economics-new')
 
 // Set up the Telegram bot API token
 const botToken = key.api_key;
@@ -12,9 +12,10 @@ const bot = new TelegramBot(botToken);
 const chatId = key.target_chat_id;
 
 // Function to send a poll for the current question
+
 async function sendQuizPoll() {
 
-    const currentQuestion = quizData[Math.floor(Math.random() * 99)];
+    const currentQuestion = quizData[Math.floor(Math.random() * quizData.length)];
     const { question, questionOptions, questionDirection, answer, options, explanation } = currentQuestion;
 
     // Send the question as a message

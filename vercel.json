@@ -32,6 +32,10 @@
       {
         "src": "ancient.js",
         "use": "@vercel/node"
+      },
+      {
+        "src": "economics-new.js",
+        "use": "@vercel/node"
       }
     ],
     "routes": [
@@ -62,6 +66,10 @@
       {
         "src": "/ancient",
         "dest": "/ancient.js"
+      },
+      {
+        "src": "/economics-new",
+        "dest": "/economics-new.js"
       }
     ]
   }
