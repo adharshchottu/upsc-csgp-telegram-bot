@@ -351,6 +351,174 @@ const EconomicsNew = [
       "All of the above"
     ],
     "questionDirection": "Select the correct answer using the code given below"
+  },
+  {
+    "question": "Consider the following statements  regarding CPI Combined: ",
+    "questionOptions": [
+      "It captures/reflects the impact of  monthly change in prices of  various commodities ",
+      "It does not capture/reflect the  impact of monthly change in consumption pattern of various  commodities ",
+      "It captures/reflects the impact of  yearly change in consumption  pattern of various commodities ",
+      "It captures the impact of  consumption pattern of people  through their expenditure on  various items "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 1,
+    "explanation": "The weights of various items in CPI basket are assigned as per the expenditure by the consumers on different items. Weight changes in 5 or 6 years and CPI is calculated on monthly basis",
+    "options": [
+      "1 only",
+      "1, 2 & 4 only",
+      "2 & 3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Consider the statements regarding the  various inflation indices published in  the country: ",
+    "questionOptions": [
+      "Wholesale Price Index (WPI) does  not represent the inflation in  services ",
+      "Consumer Price Index (CPI)  represents the inflation in goods  and services ",
+      "CPI and WPI represent the  inflation of imported goods also ",
+      "CPI does not represent the  inflation in capital and  intermediate goods. "
+    ],
+    "answer": 3,
+    "explanation": "Services are not part of wholesale sector. Imported goods enter wholesale market then to retail market. so it is part of both WPI and CPI",
+    "options": [
+      "1 & 2 only",
+      "1, 2, 3 only",
+      "2, 3 & 4 only",
+      "All of the above"
+    ],
+    "questionDirection": "Select the correct answer using the code given below"
+  },
+  {
+    "question": "Wholesale Price Inflation (WPI) index  includes price change of which of the  following sectors: ",
+    "questionOptions": [
+      "Agriculture ",
+      "Mining ",
+      "Manufacturing ",
+      "Electricity "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "WPI calculate the price change in bulk transaction of products in early stage and doesn't include services. Indirect taxes are excluded to make it more independent of fiscal policy",
+    "options": [
+      "2 & 3 only",
+      "3 only",
+      "1, 2 & 3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Central Government employee’s salary  (dearness allowance) is linked with  which CPI inflation index? ",
+    "answer": 1,
+    "explanation": "inflation of goods are services used by industrial workers. calculated by Labour Bureau, Ministry of Labour and Employment. base year 2016. ",
+    "options": [
+      "CPI – combined",
+      "CPI – Industrial Workers",
+      "Both (a) & (b)",
+      "None of the above"
+    ]
+  },
+  {
+    "question": "Consider the following statements  regarding the current \"Wholesale Price Index (WPI)\" series with base year  2011-12: ",
+    "questionOptions": [
+      "The weights of the commodities in  WPI basket are fixed till the  revision/change in base year ",
+      "The weights of the commodities in  WPI basket are determined based  on domestic production plus net of  exports ",
+      "The weights of the commodities in  WPI basket are determined based  on domestic production plus net of  imports ",
+      "Manufactured Products have the  highest weight in WPI basket "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "Net traded value = Domestic production plus imports minus exports = Domestic production plus Net imports",
+    "options": [
+      "1 only",
+      "1, 2 & 4 only",
+      "1, 3 & 4 only",
+      "3 & 4 only"
+    ]
+  },
+  {
+    "question": "If economic growth in 2022-23 is 8% and nominal growth in GDP over the  same period is 12%, then ‘GDP  Deflator’ in this period would be",
+    "answer": 1,
+    "explanation": "GDP Deflator = (Nominal GDP/Real GDP)",
+    "options": [
+      "4%",
+      "Less than 4%",
+      "More than 4%",
+      "Can’t be calculated"
+    ]
+  },
+  {
+    "question": " Consider the following statement with  reference to ‘Income Elasticity of  Demand’: ",
+    "questionOptions": [
+      "It measures the responsiveness of  demand for a particular good to  changes in consumer income. ",
+      "Using this concept, it is possible to  tell if a particular good represents  a necessity or a luxury. "
+    ],
+    "answer": 2,
+    "explanation": "Income elasticity of demand = (% change in quantity/% change in income). less than 1 means necessity. more than 1 luxury.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 & 2",
+      "Neither 1 nor 2"
+    ],
+    "questionDirection": "Select the correct answer using the code given below? "
+  },
+  {
+    "question": "Which of the following is a common  measure of degree of 'openness of an  economy'? ",
+    "answer": 3,
+    "explanation": "Openness is measured as, Exports + Imports of goods and services of a country as a percentage of its GDP.",
+    "options": [
+      "Exports and imports share in world GDP",
+      "Balance of Payments as a percentage of GDP",
+      "Trade balance as a percentage of GDP",
+      "Exports and imports of goods and services as a percentage of GDP"
+    ]
+  },
+  {
+    "question": "Consider the following statements regarding India: ",
+    "questionOptions": [
+      "Exports (of goods and services) as  a percent of GDP has steadily  decreased in the last decade ",
+      "Imports (of goods and services) as  a percent of GDP has steadily  increased in the last decade ",
+      "Trade as a percent of GDP has  steadily decreased in the last  decade ",
+      "Services trade balance has  consistently been positive in the  last 10 years "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "India’s services export has consistently been higher than import of services in the last ten years. Hence services trade balance has been consistently positive. ",
+    "options": [
+      "2 only",
+      "1 & 2 only",
+      "4 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Which of the following commodities  had the highest share in merchandise  exports in 2023-24? ",
+    "answer": 0,
+    "explanation": "Maximum export is ‘petroleum products’ and maximum import is ‘Crude Petroleum’",
+    "options": [
+      "Petroleum products",
+      "Gold and other metal jewellery",
+      "Marine products",
+      "Rice including basmati rice"
+    ]
+  },
+  {
+    "question": "What were the reasons which led to  bank nationalization of 1969: ",
+    "questionOptions": [
+      "Expansion of bank branches was  mostly in urban areas ",
+      "Agriculture and small-scale industries were not getting proper  access to banking facilities ",
+      "Bank credit was not utilized for  financing projects according to  Plan priorities ",
+      "Easy and cheap availability of  credit to a few industrial houses  had encouraged growth of  monopolies "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "All are correct",
+    "options": [
+      "1 & 2 only",
+      "1, 2 & 3 only",
+      "2 & 4 only",
+      "All of the above"
+    ]
   }
 ]
 
