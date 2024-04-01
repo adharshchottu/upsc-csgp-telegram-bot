@@ -67,7 +67,7 @@ const EconomicsNew = [
     ],
     "questionDirection": "Select the correct answer using the code given below",
     "answer": 0,
-    "explanation": "GNI is the income earned by Indian residents only whether in India or abroad, not include the income earned by NRIs.\nGNI = GNP = GDP + net factor income from abroad (NFIA)",
+    "explanation": "GNI is the income earned by Indian residents only whether in India or abroad, not include the income earned by NRIs. GNI = GNP = GDP + net factor income from abroad (NFIA)",
     "options": [
       "1 & 3 only",
       "1 & 4 only",
@@ -110,7 +110,7 @@ const EconomicsNew = [
     ],
     "questionDirection": "Select the correct answer using the code given below",
     "answer": 2,
-    "explanation": "profit is just a part of value of production and hence it will be part of India’s GDP. But this belongs to the person in China who owns the company in India, so it will be part of China’s GNP also\n",
+    "explanation": "profit is just a part of value of production and hence it will be part of India’s GDP. But this belongs to the person in China who owns the company in India, so it will be part of China’s GNP also",
     "options": [
       "1 only",
       "2 only",
@@ -143,7 +143,7 @@ const EconomicsNew = [
       "Buying and selling of shares"
     ],
     "answer": 1,
-    "explanation": "The value of capital goods produced is defined as investment.\nSo, production of consumption goods and services are not investment. Trading shares is also not investment.",
+    "explanation": "The value of capital goods produced is defined as investment. So, production of consumption goods and services are not investment. Trading shares is also not investment.",
     "options": [
       "1 & 2 only",
       "2 only",
@@ -517,6 +517,238 @@ const EconomicsNew = [
       "1 & 2 only",
       "1, 2 & 3 only",
       "2 & 4 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Which of the following are part of  “Seigniorage”: ",
+    "questionOptions": [
+      "Interest income on reserves kept  with RBI for money creation ",
+      "Interest accruing from bank  balances kept with central bank as  interest-free balances in order to  meet the reserve requirements ",
+      "Inflation tax "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "Seigniorage is the income from money creation. Because of inflation, the currency note that the public is holding losses value which reduces the liability of RBI",
+    "options": [
+      "1 only",
+      "2 only",
+      "1 & 2 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "If a country has ‘Pegged’ (fixed but  adjustable) exchange rate, then  consider the following statements: ",
+    "questionOptions": [
+      "Inflation in the country may make  its exports less competitive  ",
+      "If the country devalues its  currency in proportion to the  inflation, then its exports may  remain competitive "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "Pegged exchange rate means a country fixes its exchange rate with another country currency or a basket of currencies and when required changes it accordingly.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 & 2",
+      "Neither 1 nor 2"
+    ]
+  },
+  {
+    "question": "Which of the following statements are  true regarding India’s present  exchange rate system: ",
+    "questionOptions": [
+      "RBI regulates the Rupee dollar  rate ",
+      "RBI generally intervenes in the  forex market indirectly ",
+      "RBI regulates the forex market "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "Rate of rupee-dollar is determined in the forex market based on market forces of demand and supply. RBI intervene to contain volatility. This is called ‘Managed Float’ or ‘Dirt Float’. ",
+    "options": [
+      "1 only",
+      "1 & 2 only",
+      "3 only",
+      "2 & 3 only"
+    ]
+  },
+  {
+    "question": "RBI intervenes in the foreign exchange  market to: ",
+    "questionOptions": [
+      "To contain the volatility in the  rupee ",
+      "To set a price band for Rupee in  terms of Dollar "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 0,
+    "explanation": "RBI intervene due to volatility only and not to regulate or make it static.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 & 2",
+      "Neither 1 nor 2"
+    ]
+  },
+  {
+    "question": "Consider the following statements  regarding purchasing power parity  (PPP) exchange rates:  ",
+    "questionOptions": [
+      "If two countries have same rate of  inflation, their PPP exchange rates  will remain constant ",
+      "The prices of goods will be same in  both the countries when converted  at PPP exchange rate "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "To calculate PPP exchange rate, we need to compare the prices of a basket of goods in India with other countries. So basically a level playing field for comparing items based on currency value.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 & 2",
+      "Neither 1 nor 2"
+    ]
+  },
+  {
+    "question": " Which of the following statements are  true in case 'the currency of two  countries are at purchasing power parity':",
+    "answer": 0,
+    "explanation": "When nominal exchange rate becomes equal to PPP exchange rate, then we say that the 'currencies of two countries are at purchasing power parity'",
+    "options": [
+      "PPP exchange rate is equal to Nominal exchange rate",
+      "PPP exchange rate is equal to Real exchange rate",
+      "Nominal exchange rate is equal to Real exchange rate",
+      "PPP, Nominal and Real exchange rates become equal"
+    ]
+  },
+  {
+    "question": "If Mr. X has Rs. 20 crores in India and  Mr. Y has $1 crore in US and  whatever Mr. X can consume in India  with Rs. 20 crores, the same items  can be consumed by Mr. Y in $ 1 crore  in US. If both of them, with their money, met  at a place other than India and US  then who will be richer?  ",
+    "answer": 3,
+    "explanation": "Will depend on Nominal Exchange Rate",
+    "options": [
+      "Mr. X",
+      "Mr. Y",
+      "Equally rich",
+      "Will depend on Nominal Exchange Rate"
+    ]
+  },
+  {
+    "question": "Increase in India's trade deficit may  lead to which of the following",
+    "answer": 1,
+    "explanation": "trade deficit increases means imports are increasing as compared to exports. It causes an increase in demand for dollars which results in decline in value of Indian currency.",
+    "options": [
+      "Increase in money supply in the economy",
+      "Depreciation of rupee",
+      "Appreciation of rupee",
+      "Increase in GDP"
+    ]
+  },
+  {
+    "question": "Which of the following situation will  lead to depreciation of a country's  currency",
+    "answer": 3,
+    "explanation": "When the interest rate in India increases, more foreign investors come to India to invest in debt, which results in rupee appreciation.",
+    "options": [
+      "Foreign Investment inflow",
+      "Rise in the interest rate",
+      "Increase in exports",
+      "None of the above"
+    ]
+  },
+  {
+    "question": "The export competitiveness of a  country with its trading partners can  be best measured through which of  the following exchange rates",
+    "answer": 3,
+    "explanation": "Trade competitiveness depend on movement of domestic price, abroad price, nominal exchange rate. real effective exchange rate includes all these three parameters.",
+    "options": [
+      "Nominal Exchange Rate",
+      "Real Exchange Rate",
+      "Nominal Effective Exchange Rate",
+      "Real Effective Exchange Rate"
+    ]
+  },
+  {
+    "question": "If rupee is appreciating in real terms  with respect to US dollars, then",
+    "answer": 0,
+    "explanation": "When a currency appreciates either in nominal or real terms then export competitiveness decreases. ",
+    "options": [
+      "India’s exports competitiveness will decrease",
+      "India’s exports competitive will increase",
+      "India’s exports will be more competitive than US",
+      "India’s exports will be less competitive than US"
+    ]
+  },
+  {
+    "question": "Consider the following statements:  ",
+    "questionOptions": [
+      "If rupee is depreciating, then it  leads to increase in cost of imports  in dollars  ",
+      "If rupee is depreciating, then it  leads to earning more dollars per  unit of exports  Select the correct answer using the  code given below"
+    ],
+    "answer": 3,
+    "explanation": "Neither 1 nor 2 ",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 & 2",
+      "Neither 1 nor 2"
+    ]
+  },
+  {
+    "question": "Which of the following will be the  impact of rupee depreciation: ",
+    "questionOptions": [
+      "Exports will become more  competitive  ",
+      "Exporters will fetch more dollars  for the same amount of goods  exported  ",
+      "Demand for domestic goods and  services will increase "
+    ],
+    "answer": 2,
+    "explanation": "When a country devalues its currency, then exporters are able to sell their product in the international market at a lesser price without compromising their earnings.",
+    "options": [
+      "1 only",
+      "2 only",
+      "1 & 3 only",
+      "All of the above"
+    ],
+    "questionDirection": "Select the correct answer using the code given below"
+  },
+  {
+    "question": "Suppose due to higher domestic  inflation, rupee started depreciating  but RBI used the Forex reserves to  prevent the depreciation of Rupee.  Then consider the following  statements:  ",
+    "questionOptions": [
+      "REER will increase    ",
+      "REER will decrease   ",
+      "Exports will become more  competitive    ",
+      "No impact on trade  competitiveness  Select the correct answer using the  code given below"
+    ],
+    "answer": 0,
+    "explanation": "Real exchange rate (RER) = (NER* Domestic price)/Abroad Price",
+    "options": [
+      "1 only",
+      "4 only",
+      "2 & 3 only",
+      "1 and 3 only"
+    ]
+  },
+  {
+    "question": "Consider the following statements  regarding the transactions happening  at the international level for trade and  financial flows: ",
+    "questionOptions": [
+      "There is an international authority  with the power to force the use of  a particular currency  ",
+      "There is a basket of currencies  which can only be used to settle  international transactions  ",
+      "Currencies which maintain a  stable purchasing power are  generally accepted  ",
+      "Freely convertible currencies are  generally accepted   "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "Generally, any country will accept that currency for its trade (exports), if that currency is not losing value (less inflation) and it is stable and it is freely convertible in other currencies.",
+    "options": [
+      "1 only",
+      "2 & 4 only",
+      "3 & 4 only",
+      "2, 3 & 4 only"
+    ]
+  },
+  {
+    "question": " Consider the following statements  regarding 'internationalization of  rupee': ",
+    "questionOptions": [
+      "It means use of rupee for  transactions between non residents  ",
+      "It means use of rupee transactions  between residents and non residents  ",
+      "Military capability of a country  plays role in internationalization of  currency  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "Internationalization of a currency is an expression of external credibility in the currency as well as in the economy. ",
+    "options": [
+      "1 only",
+      "2 only",
+      "1 & 2 only",
       "All of the above"
     ]
   }
