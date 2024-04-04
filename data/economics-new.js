@@ -1,6 +1,6 @@
 const EconomicsNew = [
   {
-    "question": " Consider the following statements regarding Gross Domestic Product:",
+    "question": "Consider the following statements regarding Gross Domestic Product:",
     "questionOptions": [
       "It is the sum total of domestic final consumption and investment expenditure plus net of exports and imports",
       "It is the sum total of final domestic consumption and investment expenditure plus exports",
@@ -153,7 +153,7 @@ const EconomicsNew = [
     "questionDirection": "Select the correct answer using the code given below"
   },
   {
-    "question": " Consider the following statements:",
+    "question": "Consider the following statements:",
     "questionOptions": [
       "Imported capital equipment are  part of investment in Indian  economy",
       "Capital goods exported out of India  are not part of India’s investment"
@@ -303,7 +303,7 @@ const EconomicsNew = [
     ]
   },
   {
-    "question": " If a country’s growth rate is good but there is no corresponding growth in  employment, then which of the  following could be the reasons: ",
+    "question": "If a country’s growth rate is good but there is no corresponding growth in  employment, then which of the  following could be the reasons: ",
     "answer": 0,
     "explanation": "If already existing capital is being utilized better, so the economy will grow, but it need not necessary to produce more jobs.",
     "options": [
@@ -418,7 +418,7 @@ const EconomicsNew = [
     ]
   },
   {
-    "question": "Consider the following statements  regarding the current \"Wholesale Price Index (WPI)\" series with base year  2011-12: ",
+    "question": "Consider the following statements  regarding the current \"Wholesale Price Index (WPI)\"series with base year  2011-12: ",
     "questionOptions": [
       "The weights of the commodities in  WPI basket are fixed till the  revision/change in base year ",
       "The weights of the commodities in  WPI basket are determined based  on domestic production plus net of  exports ",
@@ -447,7 +447,7 @@ const EconomicsNew = [
     ]
   },
   {
-    "question": " Consider the following statement with  reference to ‘Income Elasticity of  Demand’: ",
+    "question": "Consider the following statement with  reference to ‘Income Elasticity of  Demand’: ",
     "questionOptions": [
       "It measures the responsiveness of  demand for a particular good to  changes in consumer income. ",
       "Using this concept, it is possible to  tell if a particular good represents  a necessity or a luxury. "
@@ -603,7 +603,7 @@ const EconomicsNew = [
     ]
   },
   {
-    "question": " Which of the following statements are  true in case 'the currency of two  countries are at purchasing power parity':",
+    "question": "Which of the following statements are  true in case 'the currency of two  countries are at purchasing power parity':",
     "answer": 0,
     "explanation": "When nominal exchange rate becomes equal to PPP exchange rate, then we say that the 'currencies of two countries are at purchasing power parity'",
     "options": [
@@ -736,7 +736,7 @@ const EconomicsNew = [
     ]
   },
   {
-    "question": " Consider the following statements  regarding 'internationalization of  rupee': ",
+    "question": "Consider the following statements  regarding 'internationalization of  rupee': ",
     "questionOptions": [
       "It means use of rupee for  transactions between non residents  ",
       "It means use of rupee transactions  between residents and non residents  ",
@@ -751,6 +751,140 @@ const EconomicsNew = [
       "1 & 2 only",
       "All of the above"
     ]
+  },
+  {
+    "question": "Retail investors are allowed to directly  access Govt. securities market.  Consider the following statements:  ",
+    "questionOptions": [
+      "Retail investors will be allowed in  both primary and secondary Govt.  securities market  ",
+      "Individuals participate in the non competitive auctioning process of  G-Securities in Primary Market   ",
+      "It will help in reducing the cost of  borrowing for government  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "In 2021, Retail Investors have been allowed to purchase G-Secs in Primary Market directly by opening a Gilt Account with RBI under ‘Retail Direct Scheme’. RBI manages it through 'e-Kuber' platform.",
+    "options": [
+      "1 & 2 only",
+      "3 only",
+      "1 & 3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Consider the following statements  regarding government securities  market:  ",
+    "questionOptions": [
+      "G-Secs are issued through  auctions conducted on E-Kuber  which is the core banking solution  platform of RBI  ",
+      "Negotiated Dealing System-Order  Matching is a secondary market  for G-Secs  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "There is an active secondary market in G-Secs and Negotiated Dealing System-Order Matching is such a market/platform. Stock exchanges are also a secondary market for government securities. ",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 & 2",
+      "Neither 1 nor 2"
+    ]
+  },
+  {
+    "question": "Consider the following statements  regarding “State Development Loans”: ",
+    "questionOptions": [
+      "It can be used under SLR by  banks  ",
+      "It is a tradable instrument  ",
+      "RBI manages the public debt of  states  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "G-Sec is a tradable instrument issued by Central or State govt. 4 types: Treasury Bills, Cash Management Bills, Dated Securities, State Dev.Loans. RBI manages the Public Debt of States(RBI Act 1934)",
+    "options": [
+      "2 only",
+      "1 & 2 only",
+      "1 & 3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Which of the following statements are  true regarding “Cash Management  Bills”: ",
+    "questionOptions": [
+      "Issued by Central Government and  not by state governments  ",
+      "It is used to fund fiscal deficit  ",
+      "It can be used for temporary  mismatches in the cash flow of the  government  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "In 2010, GoI, in consultation with RBI introduced Cash Management Bills. The CMBs have the generic character of T-bills but are issued for maturities less than 91 days(Traded in money market also) ",
+    "options": [
+      "1 & 2 only",
+      "2 & 3 only",
+      "3 only",
+      "1 & 3 only"
+    ]
+  },
+  {
+    "question": "Consider the following statements  regarding the 'Statutory Liquidity  Ratio (SLR)' maintained by Scheduled  Commercial Banks:  ",
+    "questionOptions": [
+      "It is maintained as per the RBI Act 1934 ",
+      "Can be maintained as cash balance with RBI ",
+      "Cash Management Bills, Treasury Bills, Dated Securities and State  Development Loans (SDL), all are considered as SLR securities  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 1,
+    "explanation": "SLR is maintained as per Banking Regulation Act 1949 while CRR is maintained as per RBI Act 1934. Banks maintain SLR with themselves in the form of Cash, Gold and Govt. securities.",
+    "options": [
+      "1 only",
+      "2 & 3 only",
+      "2 only",
+      "3 only"
+    ]
+  },
+  {
+    "question": "Consider the following statements  regarding ‘ways and means’ advance:  ",
+    "questionOptions": [
+      "It is available for both Central and  State governments  ",
+      "Government needs to pay interest  on ways and means advance  ",
+      "It is to meet the temporary  mismatches of receipts and  payments  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "WMA is a loan facility from the RBI for 90 days which implies that the government has to vacate the facility after 90 days. Interest rate for WMA is currently charged at the repo rate.",
+    "options": [
+      "1 only",
+      "1 & 3 only",
+      "2 & 3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Consider the following statements regarding ‘Ways and Means Advance’:",
+    "questionOptions": [
+      "It is used to fund government’s fiscal deficit",
+      "It is tradable government security  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "CMB is WMA is a kind of loan facility (which is not tradable) from RBI and CMB are bonds of GoI issued into the market which are tradable. CMB is only for Central Govt. and WMA is for both.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 & 2",
+      "Neither 1 nor 2"
+    ]
+  },
+  {
+    "question": "Which of the following statements will be true if the inflation in the economy is increasing: ",
+    "questionOptions": [
+      "Bond price will decrease",
+      "Bondholders will loose",
+      "The yield on bonds will increase"
+    ],
+    "answer": 3,
+    "explanation": "Inflation will increase the bond yeild, but the existing bond holders loose as the inflation is increasing.",
+    "options": [
+      "1 only",
+      "1, & 2 only",
+      "3 only",
+      "All of the above"
+    ],
+    "questionDirection": "Select the correct answer using the code given below"
   }
 ]
 
