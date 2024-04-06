@@ -587,7 +587,7 @@ const EconomicsNew = [
     ]
   },
   {
-    "question": "Consider the following statements  regarding purchasing power parity  (PPP) exchange rates:  ",
+    "question": "Consider the following statements  regarding purchasing power parity  (PPP) exchange rates:",
     "questionOptions": [
       "If two countries have same rate of  inflation, their PPP exchange rates  will remain constant ",
       "The prices of goods will be same in  both the countries when converted  at PPP exchange rate "
@@ -669,7 +669,7 @@ const EconomicsNew = [
     ]
   },
   {
-    "question": "Consider the following statements:  ",
+    "question": "Consider the following statements:",
     "questionOptions": [
       "If rupee is depreciating, then it  leads to increase in cost of imports  in dollars  ",
       "If rupee is depreciating, then it  leads to earning more dollars per  unit of exports  Select the correct answer using the  code given below"
@@ -701,7 +701,7 @@ const EconomicsNew = [
     "questionDirection": "Select the correct answer using the code given below"
   },
   {
-    "question": "Suppose due to higher domestic  inflation, rupee started depreciating  but RBI used the Forex reserves to  prevent the depreciation of Rupee.  Then consider the following  statements:  ",
+    "question": "Suppose due to higher domestic  inflation, rupee started depreciating  but RBI used the Forex reserves to  prevent the depreciation of Rupee.  Then consider the following  statements:",
     "questionOptions": [
       "REER will increase    ",
       "REER will decrease   ",
@@ -753,7 +753,7 @@ const EconomicsNew = [
     ]
   },
   {
-    "question": "Retail investors are allowed to directly  access Govt. securities market.  Consider the following statements:  ",
+    "question": "Retail investors are allowed to directly  access Govt. securities market.  Consider the following statements:",
     "questionOptions": [
       "Retail investors will be allowed in  both primary and secondary Govt.  securities market  ",
       "Individuals participate in the non competitive auctioning process of  G-Securities in Primary Market   ",
@@ -770,7 +770,7 @@ const EconomicsNew = [
     ]
   },
   {
-    "question": "Consider the following statements  regarding government securities  market:  ",
+    "question": "Consider the following statements  regarding government securities  market:",
     "questionOptions": [
       "G-Secs are issued through  auctions conducted on E-Kuber  which is the core banking solution  platform of RBI  ",
       "Negotiated Dealing System-Order  Matching is a secondary market  for G-Secs  "
@@ -820,7 +820,7 @@ const EconomicsNew = [
     ]
   },
   {
-    "question": "Consider the following statements  regarding the 'Statutory Liquidity  Ratio (SLR)' maintained by Scheduled  Commercial Banks:  ",
+    "question": "Consider the following statements  regarding the 'Statutory Liquidity  Ratio (SLR)' maintained by Scheduled  Commercial Banks:",
     "questionOptions": [
       "It is maintained as per the RBI Act 1934 ",
       "Can be maintained as cash balance with RBI ",
@@ -837,7 +837,7 @@ const EconomicsNew = [
     ]
   },
   {
-    "question": "Consider the following statements  regarding ‘ways and means’ advance:  ",
+    "question": "Consider the following statements  regarding ‘ways and means’ advance:",
     "questionOptions": [
       "It is available for both Central and  State governments  ",
       "Government needs to pay interest  on ways and means advance  ",
@@ -885,6 +885,214 @@ const EconomicsNew = [
       "All of the above"
     ],
     "questionDirection": "Select the correct answer using the code given below"
+  },
+  {
+    "question": "The price of government securities in  India is influenced by which of the  following: ",
+    "questionOptions": [
+      "Repo rate  ",
+      "US Federal Bank benchmark  interest rate  ",
+      "Liquidity in the market  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "All has effect on interest rate on G-sec.",
+    "options": [
+      "1 only",
+      "2 only",
+      "1 & 2 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": " Which one of the following statements correctly describes the meaning of legal tender money:",
+    "answer": 1,
+    "explanation": "Currencies and coins are legal tender (RBI Act 1934, section 26), means one cannot deny accepting it for debt payment. Now central bank digital currency is also legal tender(amended RBI act)",
+    "options": [
+      "The money which is tendered in courts of law to defray the fee of legal cases",
+      "The money which a creditor is under compulsion to accept in settlement of his claims",
+      "The bank money in the form of cheques, drafts, bills of exchange, etc.",
+      "The metallic money in circulation in a country"
+    ]
+  },
+  {
+    "question": "Consider the following statements:",
+    "questionOptions": [
+      "Currencies and coins are fiat  money  ",
+      "Currencies do not have intrinsic  value, but coins have  ",
+      "Currencies and coins are legal  tenders  ",
+      "Currency notes are guaranteed by  Govt. of India  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "Fiat money means they do not have intrinsic value as they are created out of govt order and not out of its value. all currency notes are guaranteed by the Central Government(RBI Act 1934).",
+    "options": [
+      "1 only",
+      "1 & 3 only",
+      "3 & 4 only",
+      "1, 3 & 4 only"
+    ]
+  },
+  {
+    "question": "Consider the following statements:",
+    "questionOptions": [
+      "All the currency in circulation is  the liability of RBI ",
+      "All the currency in circulation is  part of money supply  ",
+      "Notes and coins are circulated in  the economy only through RBI  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "Coins and one rupee notes are liablity of govt as it is printed by govt. Only the money with public is the money supply, but not the money with banks. But all are circulated by RBI.",
+    "options": [
+      "1 only",
+      "1 & 2 only",
+      "3 only",
+      "None of the above"
+    ]
+  },
+  {
+    "question": "Who has the authority to issue  currency notes in India?  ",
+    "answer": 2,
+    "explanation": "The RBI Act of 1934, Section 22 gives the central bank the sole right to issue currency notes. ",
+    "options": [
+      "Central Government",
+      "Ministry of Finance",
+      "RBI",
+      "RBI governor"
+    ]
+  },
+  {
+    "question": "Consider the following statements  regarding currency circulation in  India:",
+    "questionOptions": [
+      "Govt. of India has the sole right to  mint coins  ",
+      "The coins are issued for  circulation only through RBI in  terms of the RBI Act 1934  ",
+      "Coins can be issued up to the  denomination of Rs. 1000 as per  the Coinage Act 1906  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "Even though coins are minted by the govt, they are circulated via RBI as per the RBI act 1934.",
+    "options": [
+      "1 only",
+      "1 & 2 only",
+      "3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "If new currency is being issued, then  who has the authority to decide its  'Denomination'? ",
+    "answer": 2,
+    "explanation": "RBI Act 1934(Section 24), “Central Government, on the recommendation of Central Board of Directors of RBI, has the authority to specify the denomination of the new currency note to be issued” ",
+    "options": [
+      "RBI Governor",
+      "RBI Central Board of Directors",
+      "Central Government",
+      "Monetary Policy Committee"
+    ]
+  },
+  {
+    "question": "Who is the final authority in approving the design, form and material of bank notes? ",
+    "answer": 2,
+    "explanation": "RBI Act Section 25-the design, form and material of bank notes shall be such as may be approved by the Central Government after consideration of the recommendations made by the Central Board of RBI.",
+    "options": [
+      "Governor of RBI",
+      "Central Board of RBI",
+      "Central Government",
+      "Governor of RBI in consultation with Central Government"
+    ]
+  },
+  {
+    "question": "Prime Minister, on 8th of Nov 2016,  declared that the existing Rs. 500 and  Rs. 1000 notes will not be legal  tender. This was done under which of  the following Act? ",
+    "answer": 0,
+    "explanation": "Section 26 RBI Act 1934",
+    "options": [
+      "RBI Act 1934",
+      "Banking regulation Act 1949",
+      "Payment and Settlement Systems Act 2007",
+      "Does not require any statutory backing"
+    ]
+  },
+  {
+    "question": "RBI targets the growth of money supply in the economy based on:",
+    "questionOptions": [
+      "Expected real GDP growth  ",
+      "Normal level of inflation  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "RBI consider both GDP growth and inflation while checking on money supply in the economy via various methods, such as repo rate, etc",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 & 2",
+      "Neither 1 nor 2"
+    ]
+  },
+  {
+    "question": "Which of the following statements are  true regarding RBI: ",
+    "questionOptions": [
+      "As per the RBI Act 1934, RBI is  bound to undertake the receipt  and payments and other banking  operations of the central  government  ",
+      "As per the RBI Act 1934, RBI is  obliged to act as banker to State  governments  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "Section 20 - RBI to undertake receipt and payments. Section 21 - RBI transact business of GoI. Section 21 A - RBI as banker state govt.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 & 2",
+      "Neither 1 nor 2"
+    ]
+  },
+  {
+    "question": " Consider the following statements  regarding ‘Agency Banks’ of RBI: ",
+    "questionOptions": [
+      "RBI Act 1934 allows RBI to appoint agency banks  ",
+      "Scheduled payment banks and small finance banks can act as ‘Agency Banks’  ",
+      "Only those private banks which are of certain size are allowed to act as ‘Agency Banks’  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 1,
+    "explanation": "Section 45 - RBI carries out govt business via agency banks, which are banks assigned by RBI as agency banks.",
+    "options": [
+      "1 only",
+      "1 & 2 only",
+      "1 & 3 only",
+      "2 & 3 only"
+    ]
+  },
+  {
+    "question": "Which of the following functions are  part of the Reserve Bank of India (RBI)  acting as Banker to Banks: ",
+    "questionOptions": [
+      "Enabling banks to maintain their  accounts with RBI for statutory  reserve requirements  ",
+      "Enabling settlement of interbank  transfer of funds  ",
+      "RBI provides short term loans and  advances to banks  ",
+      "Acting as lender of last resort  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "Bank Run is a situation that occurs when everybody wants to take money out of one’s bank account before the bank runs out of reserves.",
+    "options": [
+      "1 only",
+      "1 & 2 only",
+      "1, 2 & 3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Consider the following statements  regarding RBI acting as 'lender of last  resort' for banks:",
+    "questionOptions": [
+      "It is done to prevent possible  failure of the banks and to protect  the interest of the depositors  ",
+      "RBI does it only if the troubled  financial institution has exhausted  all the resources it can obtain from  the market and from the RBI’s  regular liquidity facilities like LAF,  MSF   ",
+      "To ensure financial stability in the  economy  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "RBI provides this emergency liquidity assistance only if the troubled financial institution has exhausted all the resources and from the RBI’s regular liquidity facilities like LAF, MSF etc.",
+    "options": [
+      "1 only",
+      "1 & 2 only",
+      "1 & 3 only",
+      "All of the above"
+    ]
   }
 ]
 
