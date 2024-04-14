@@ -1082,7 +1082,7 @@ const EconomicsNew = [
     "questionOptions": [
       "It is done to prevent possible  failure of the banks and to protect  the interest of the depositors  ",
       "RBI does it only if the troubled  financial institution has exhausted  all the resources it can obtain from  the market and from the RBI’s  regular liquidity facilities like LAF,  MSF   ",
-      "To ensure financial stability in the  economy  "
+      "To ensure financial stability in the economy"
     ],
     "questionDirection": "Select the correct answer using the code given below",
     "answer": 3,
@@ -1092,6 +1092,212 @@ const EconomicsNew = [
       "1 & 2 only",
       "1 & 3 only",
       "All of the above"
+    ]
+  },
+  {
+    "question": "Which of the following statements are  true regarding lender of last resort(LOLR): ",
+    "questionOptions": [
+      "It is provided to banks which have been declared bankrupt ",
+      "RBI provides funds for long period  ",
+      "RBI provides fund against collateral and at a penal rate "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "LOLR is provided to banks which facing liquidity crisis, but is solvent, so RBI provides liquidity if it exhaust all options. It is against collateral with a penal rate. Once bankrupt RBI dont help.",
+    "options": [
+      "1 only",
+      "2 & 3 only",
+      "3 only",
+      "1 & 3 only"
+    ]
+  },
+  {
+    "question": "Which of the following functions are part of the RBI acting as Banker to Central Government: ",
+    "questionOptions": [
+      "RBI maintains the account for the  various central government funds like Consolidated Fund of India, Contingency Fund and Public Account of India ",
+      "RBI acts as advisor to the government on monetary and banking related matters",
+      "RBI provides Ways and Means Advances to the government ",
+      "RBI floats loans and manages them on behalf of the government "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "When RBI floats/raises loans on behalf of government then it is acting as a 'Debt Manager' of government and not as a Banker to government.",
+    "options": [
+      "1 & 2 only",
+      "2 & 3 only",
+      "1, 2 & 3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Consider the following statements regarding ‘Notice Money’:  ",
+    "questionOptions": [
+      "It is a money market instrument for overnight lending ",
+      "It is issued by commercial banks and other financial institutions ",
+      "It is generally a secured instrument "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "Call money is transacted for overnight basis and notice money for 2 days to 14 days. both are unsecured instrument to get temporary liquidity. Used by banks and large financial institutions.",
+    "options": [
+      "1 only",
+      "1 & 2 only",
+      "2 only",
+      "2 & 3 only"
+    ]
+  },
+  {
+    "question": "Consider the following statements  regarding “Commercial Papers”:  ",
+    "questionOptions": [
+      "It is an unsecured debt instrument  ",
+      "It is a short-term money market instrument ",
+      "NBFCs issue commercial papers  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "An unsecured money market instrument issued in the form of a promissory note (promise to pay in future). The original tenor (time period) of it shall be between 7 days to 1 year. NBFCs, NABARD, etc.",
+    "options": [
+      "1 only",
+      "2 & 3 only",
+      "2 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Consider the following statements regarding “Certificate of Deposits”:  ",
+    "questionOptions": [
+      "It is not a tradable instrument  ",
+      "It is a secured instrument issued  by banks  ",
+      "It is a money market instrument  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "It is tradabale, negotiable, unsecured with a maturity period upto 1 year againt funds deposited in bank. Issued by scheduled banks, NHB, SIDBI, etc.",
+    "options": [
+      "1 & 2 only",
+      "2 only",
+      "2 & 3 only",
+      "3 only"
+    ]
+  },
+  {
+    "question": "Which of the following are instrument/s of money market:",
+    "questionOptions": [
+      "Cash management bills",
+      "Treasury bills",
+      "Certificate of Deposits",
+      "State Development Loans"
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "Money market is for short-term financial assets with less than 1 year maturity, to get immediate liquidity. CMB, TB, CoD have less than 1 year maturity.",
+    "options": [
+      "1 & 2 only",
+      "2 & 3 only",
+      "1 & 4 only",
+      "1, 2 & 3 only"
+    ]
+  },
+  {
+    "question": "Mergers and Acquisitions of commercial banks may require approval of which of the following agency/ies:  ",
+    "questionOptions": [
+      "Reserve Bank of India (RBI)  ",
+      "Competition Commission of India (CCI) "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "CCI in specific will look into mergers, but section 54 of CCI Act make it possible to waive off it by GoI. ",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 & 2",
+      "Neither 1 nor 2"
+    ]
+  },
+  {
+    "question": " Consider the following statements regarding the 'Financial Services Institutions Bureau (FSIB)' constituted in 2022: ",
+    "questionOptions": [
+      "It is responsible for appointment of heads in PSBs and Financial Institutions  ",
+      "It helps PSBs in developing strategies and capital raising plans ",
+      "It has been constituted under Banking Regulation Act 1949 "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 1,
+    "explanation": "P J Nayak committee recomended an autonomous Bank Board Bureau but it was replaced by FSIB on 1 July 2022. It is established to improve the governance of PSBs.",
+    "options": [
+      "1 only",
+      "1 & 2 only",
+      "2 & 3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Consider the following statements regarding Financial Services Institutions Bureau (FSIB): ",
+    "questionOptions": [
+      "It selects the chiefs of LIC, NABARD and public financial institutions ",
+      "The persons selected by the FSIB require approval of Appointments Committee of the Cabinet (ACC) "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "Once FSIB selects the Directors/Chairman then it is sent for approval by the Appointments Committee of the Cabinet (ACC). ",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 & 2",
+      "Neither 1 nor 2"
+    ]
+  },
+  {
+    "question": "Consider the following statements regarding the insurance cover provided to depositors by Deposit Insurance and Credit Guarantee Corporation (DICGC): ",
+    "questionOptions": [
+      "All commercial banks and urban cooperative banks have to register with DICGC for providing insurance to depositors ",
+      "RBI incurs the insurance premium burden ",
+      "Government incurs the insurance premium burden ",
+      "DICGC provides insurance only in case the bank has gone bankrupt "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 0,
+    "explanation": "The Deposit Insurance and Credit Guarantee Corporation(DICGC) Act 1961 established a 100% RBI subsidiary to protect the interest of small depositors in case of failure. help in case of failure too.",
+    "options": [
+      "1 only",
+      "1 & 2 only",
+      "3 only",
+      "1 & 4 only"
+    ]
+  },
+  {
+    "question": "Consider the following statements regarding payment banks: ",
+    "questionOptions": [
+      "They can open demand and time deposit accounts both ",
+      "They are set up as differentiated banks ",
+      "They may act as Business Correspondents for other banks ",
+      "They will provide payments / remittance services to migrant labour workforce and small businesses "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "Differentiated banks have restrictions either in geography or in operation or both. Opposite of differentiated banks are universal banks. They can't lend and no time deposits.",
+    "options": [
+      "1 & 4 only",
+      "1 & 2 only",
+      "2, 3 & 4 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Consider the following statements regarding “India Post Payment Bank”:",
+    "questionOptions": [
+      "It allows demand and fixed deposit both",
+      "It allows savings and current account both ",
+      "It is a public sector company "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "It is a payment bank and accepts only demand deposits (current and savings account). IPPB comes under Dept. of Posts, Ministry of Communication.",
+    "options": [
+      "1 only",
+      "1 & 3 only",
+      "2 & 3 only",
+      "None of the above"
     ]
   }
 ]
