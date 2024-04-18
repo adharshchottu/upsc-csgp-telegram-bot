@@ -1287,8 +1287,8 @@ const EconomicsNew = [
     "question": "Consider the following statements regarding “India Post Payment Bank”:",
     "questionOptions": [
       "It allows demand and fixed deposit both",
-      "It allows savings and current account both ",
-      "It is a public sector company "
+      "It allows savings and current account both",
+      "It is a public sector company"
     ],
     "questionDirection": "Select the correct answer using the code given below",
     "answer": 2,
@@ -1299,7 +1299,143 @@ const EconomicsNew = [
       "2 & 3 only",
       "None of the above"
     ]
+  },
+  {
+    "question": "What is the purpose of setting up of Small Finance Banks (SFBs) in India: ",
+    "questionOptions": [
+      "To supply credit to small business units ",
+      "To supply credit to small and marginal farmers ",
+      "To encourage young entrepreneurs to set up business particularly in rural areas. "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 0,
+    "explanation": "SFBs are established to provide financial services to underserved and unserved. They accept deposit and lend. They are set up as differentiated bank. SLR and CRR are mandatory.",
+    "options": [
+      "1 & 2 only",
+      "2 & 3 only",
+      "1 & 3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Consider the following statements regarding Cooperative Banks: ",
+    "questionOptions": [
+      "All cooperative banks are under dual regulation of RBI and government ",
+      "RBI regulates the cooperative banks under Banking Regulation Act 1949 ",
+      "All cooperative banks are supervised by NABARD "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 1,
+    "explanation": "Except long term credit cooperative banks, all are under supervision of RBI via BRA, 1949. Only all rural CBs are under NABARD, urban CBs are not. ",
+    "options": [
+      "1 only",
+      "2 only",
+      "2 & 3 only",
+      "1 & 3 only"
+    ]
+  },
+  {
+    "question": "NABARD provides refinance to which of the following types of financial institutions: ",
+    "questionOptions": [
+      "Commercial Banks  ",
+      "Regional Rural Banks  ",
+      "State Cooperative Banks & Land Development Banks ",
+      "Non-Banking Financial Companies "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "NBARD does not give individual loans but to all financial institutions.",
+    "options": [
+      "2 only",
+      "2 & 3 only",
+      "1, 2 & 3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Which of the following are the sources of finance for National Bank for Agriculture and Rural Development (NABARD): ",
+    "questionOptions": [
+      "RBI ",
+      "Borrowing from commercial banks ",
+      "Issuing bonds which are fully serviced by Govt. of India ",
+      "Foreign currency borrowings "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "NABARD is 100% GoI subsidiary. It raises money from all sources and loans are serviced by GoI. Money raised in name of NABARD is extra-budgetary resource and not counted in India's financial deficit.",
+    "options": [
+      "1 only",
+      "1 & 3 only",
+      "3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Consider the following statements regarding MUDRA Bank: ",
+    "questionOptions": [
+      "It provides direct lending to small entrepreneurs ",
+      "MUDRA loans are available to small and marginal farmers ",
+      "MUDRA loan is available for manufacturing, trading and service activities "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "MUDRA loans are refinanced loans, so no direct lending. It is available to all except agriculture. They are available via Banks, NBFCs, MFIs, etc.",
+    "options": [
+      "1 only",
+      "2 & 3 only",
+      "3 only",
+      "1 & 3 only"
+    ]
+  },
+  {
+    "question": " Consider the following statements regarding National Housing Bank (NHB): ",
+    "questionOptions": [
+      "NHB regulates Housing finance companies ",
+      "NHB is owned by Govt. of India and regulated by RBI ",
+      "NHB provides direct finance for individual housing loans "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "Set up in 1988 under NHB Act 1987, it promote and support HFCs to provide housing loans to individuals and builders. It doesn't lend directly to individuals. earlier fully owned by RBI, but now GoI",
+    "options": [
+      "1 only",
+      "1 & 2 only",
+      "2 only",
+      "1 & 3 only"
+    ]
+  },
+  {
+    "question": "Which of the following statements are true regarding Housing Finance Companies (HFC): ",
+    "questionOptions": [
+      "HFCs are under direct regulation of RBI ",
+      "HFCs are a category of Non Banking Financial Companies (NBFCs) "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "HFCs are NBFCs. Earlier regulated by NHB, but in 2019 RBI took charge of the regulation.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 & 2",
+      "Neither 1 nor 2"
+    ]
+  },
+  {
+    "question": "Consider the following statements regarding 'Peer to Peer Lending Platforms' in India: ",
+    "questionOptions": [
+      "They are regulated by RBI as Non Banking Financial Companies ",
+      "They can lend on their own  ",
+      "They provide credit guarantee  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 0,
+    "explanation": "They are NBFCs, but can't lend on its own. Borrowers take loan from individual investors via the platform on an agreed interest rate and no credit guarantee secured.",
+    "options": [
+      "1 only",
+      "2 only",
+      "1 & 3 only",
+      "All of the above"
+    ]
   }
 ]
-
 module.exports = EconomicsNew;
