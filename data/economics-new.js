@@ -1436,6 +1436,742 @@ const EconomicsNew = [
       "1 & 3 only",
       "All of the above"
     ]
+  },
+  {
+    "question": "NBFCs raise their resources from which of the following: ",
+    "questionOptions": [
+      "Loans from Banks ",
+      "By issuance of bonds in the financial markets ",
+      "Money market  ",
+      "Through External Commercial Borrowing (ECB) "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "NBFCs raise money from all these and lend with a higher interest rate.",
+    "options": [
+      "1 only",
+      "1 & 2 only",
+      "1 & 3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Which of the following are risk factors for NBFCs in their lending process: ",
+    "questionOptions": [
+      "Relying on short term financing to fund long-term investments ",
+      "Asset liability mismatch (ALM)  ",
+      "Rollover risk of commercial papers  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "Relying on short-term financing like CP, increase the rollover risk. The fluctuations in the money market will increase the financial cost of loans, so risk for NBFCs.",
+    "options": [
+      "1 only",
+      "1, 2 only",
+      "2, 3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Consider the following statements regarding ‘Digital Banking Units (DBUs)’ launched by the Scheduled Commercial Banks: ",
+    "questionOptions": [
+      "It is fixed point business unit / hub housing certain minimum digital infrastructure for delivering digital banking products & services ",
+      "It offers banking services in both self-service and assisted mode ",
+      "It provides services without requiring paper "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "A neo-bank is a bank with no physical presence. It's all online.",
+    "options": [
+      "1 only",
+      "2 only",
+      "2 & 3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Consider the following statements regarding 'Real Estate Investment Trust'(REITs): ",
+    "questionOptions": [
+      "They are regulated by respective Real Estate Regulatory Authorities (RERA) of every State ",
+      "It will make real estate sector accessible to small investors "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 1,
+    "explanation": "REIT is a trust registered under Indian Trusts Act, 1882. It is regulated by SEBI. SEBI has also approved Infrastructure Investment Trusts(InvITs), similar to REITs but are for infrastructure sector.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 & 2",
+      "Neither 1 nor 2"
+    ]
+  },
+  {
+    "question": "Which of the following statements are true regarding 'Angel Investors': ",
+    "questionOptions": [
+      "Angel investors generally invest their own money ",
+      "They invest in small start-ups and entrepreneurs ",
+      "They provide more favourable terms and conditions as compared to other lenders ",
+      "Angel investment is regulated by SEBI "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "Angel Investment in India is regulated by Securities and Exchange Board of India (SEBI) under Category I of Alternative Investment Funds (AIF).",
+    "options": [
+      "1 & 2 only",
+      "3 only",
+      "2 & 3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Consider the following statements regarding ‘Anchor Investors’",
+    "answer": 3,
+    "explanation": "A concept launched by SEBI in 2009, to increase the retailers confidence in a company before IPO. Anchor investment has a lock in period and they get shares a day before IPO.",
+    "options": [
+      "They are high net worth individual investors who invest in startups",
+      "They are individual investors investing first time in the stock market",
+      "They are institutional investors who invest in startups and unlisted companies",
+      "They are institutional investors who are invited to invest just before the initial public offer"
+    ]
+  },
+  {
+    "question": "Consider the following statements regarding ‘Alternative Investment Fund’ (AIF):  ",
+    "questionOptions": [
+      "Its privately pooled investment vehicle established in India and regulated by SEBI ",
+      "It collects fund from sophisticated investors from India or Foreign ",
+      "Venture capital comes under AIF "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "AIF is the fund maintained by private entities for pooling of small funds to invest in large assets. Regulated by SEBI.",
+    "options": [
+      "1 only",
+      "1 & 2 only",
+      "3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": " Which of the following statements are true regarding the term 'Crowd funding': ",
+    "questionOptions": [
+      "It is a method of financing through the internet/social media ",
+      "Small amounts of money are raised from large number of investors ",
+      "It is also referred as marketplace financing "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "Crowd funding makes use of the easy accessibility of vast networks of people through social media and crowd funding websites to bring investors and entrepreneurs together.",
+    "options": [
+      "1 & 2 only",
+      "2 & 3 only",
+      "3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Consider the following statements regarding 'Exchange Traded Funds (ETF)': ",
+    "questionOptions": [
+      "ETFs are traded like stocks and can be bought and sold throughout the day ",
+      "ETFs can be used as a vehicle for disinvestment ",
+      "ETFs offers the benefit of diversification of risks "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "ETFs are similar to mutual funds, but ETFs can be traded like normal stocks.",
+    "options": [
+      "1 only",
+      "1 & 2 only",
+      "2 & 3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Which of the following statements are true regarding ‘impact bonds’: ",
+    "questionOptions": [
+      "Subscribed by government  ",
+      "Private sector finances the bond issuance ",
+      "Repayment is based on agreed upon outcomes ",
+      "This instrument is used to fund social and development initiatives "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "Bonds in which the money is invested by risk-taking investors. They will only get it back if the predetermined objective is met. So it is result driven bond.",
+    "options": [
+      "1 & 3 only",
+      "2 & 3 only",
+      "2, 3 & 4 only",
+      "1 & 4 only"
+    ]
+  },
+  {
+    "question": "Consider the following statements regarding ‘surety bonds’: ",
+    "questionOptions": [
+      "Insurance companies are allowed to issue surety bonds for infrastructure projects ",
+      "It can be used as a substitute for bank guarantee ",
+      "It will reduce indirect cost for contractors "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "Contractors has to show a bank balance guarantee, which blocks a huge chunk of money. But now they can give surety bonds instead. Like a witness insurance.",
+    "options": [
+      "1 & 2 only",
+      "1 & 3 only",
+      "2 & 3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Consider the following statements regarding the ‘India International Bullion Exchange (IIBX)’: ",
+    "questionOptions": [
+      "It has been launched in the GIFT City in Gandhinagar ",
+      "It is the first such bullion exchange in the country to trade physical gold. "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "IIBX offer easily access to gold and silver bullions for its customers registered with it. Physical gold is traded in IIBX. In India, only licensed people can import gold.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 & 2",
+      "Neither 1 nor 2"
+    ]
+  },
+  {
+    "question": "Consider the following statements regarding the term of appointment of RBI Governor",
+    "answer": 0,
+    "explanation": "The term of appointment can be 5 years, but generally the practise has been to appoint for 3 years and then extend. ",
+    "options": [
+      "As fixed by the Central Government while appointing, not exceeding five years and eligible for re-appointment",
+      "As fixed by the Central Government while appointing, not exceeding three years and eligible for re-appointment",
+      "As fixed by the Central Government while appointing, not exceeding five years and not eligible for re-appointment",
+      "As fixed by the Central Government while appointing, not exceeding three years and not eligible for re-appointment"
+    ]
+  },
+  {
+    "question": "Consider the following statements: ",
+    "questionOptions": [
+      "Banks require prior approval of RBI for appointment of directors ",
+      "Management of Public Sector banks is under dual regulation of Central Govt. & RBI "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "RBI's approval need for directors appointment. RBI with GoI can supersede Board of Directors of banks. But in case of PSB, RBI doesn;t have this right.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 & 2",
+      "Neither 1 nor 2"
+    ]
+  },
+  {
+    "question": "Consider the following statements: ",
+    "questionOptions": [
+      "RBI is a wholly owned by Govt. of India ",
+      "RBI’s surplus transfer to the central government has steadily decreased in the last 5 years "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 0,
+    "explanation": "RBI is 100% owned by govt. of India but its surplus transfer to Govt. has fluctuated in the previous years. ",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 & 2",
+      "Neither 1 nor 2"
+    ]
+  },
+  {
+    "question": "Consider the following statements regarding the ‘Economic Capital Framework’ of RBI: ",
+    "questionOptions": [
+      "RBI Act 1934 specifies to keep some contingency buffer ",
+      "RBI Act 1934 specifies that the surplus needs to be transferred to Government of India ",
+      "The transfer of surplus to Govt. of India may result in inflation "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "Section 47 RBI Act - contigency funds and transfer income to GoI. Bimal Jalan Committee has recommended that RBI should maintain 5.5% to 6.5% of the balance sheet as Contingency Risk Buffer.",
+    "options": [
+      "1 only",
+      "1 & 2 only",
+      "3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Consider the following statements regarding liquidity crisis in the debt markets: ",
+    "questionOptions": [
+      "It may be caused due to defaults in the debt market ",
+      "It may be caused due to FPIs running out of Indian markets ",
+      "It may result in hardening of interest rates ",
+      "RBI may do OMO to resolve the liquidity crisis "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "all can cause liquidity crisis.",
+    "options": [
+      "1 & 2 only",
+      "1 & 3 only",
+      "2, 3 & 4 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": " Which of the following could be the after effects of demonetization: ",
+    "questionOptions": [
+      "RBI's liability would reduce to the extent the old notes does not come to the banking system ",
+      "Transfer of wealth from holders of illicit black money to the public sector ",
+      "Decrease in liquidity "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "Black economy is the market-based production of goods and services – legal or illegal – that escapes capture in the official GDP statistics.",
+    "options": [
+      "1 & 2 only",
+      "1 & 3 only",
+      "2 & 3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Which of the following is part of Monetary Base of an economy: ",
+    "questionOptions": [
+      "Currency notes and coins with the public ",
+      "Vault cash of commercial banks  ",
+      "Deposits of commercial banks with RBI "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "Currency = Notes + Coins. Monetary base = Currency held by public + Currency held by bank + deposits of banks with RBI.",
+    "options": [
+      "1 only",
+      "1 & 2 only",
+      "2 & 3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Reserves of commercial banks includes which of the following: ",
+    "questionOptions": [
+      "All deposits of Public  ",
+      "Government securities held by banks ",
+      "Cash held by banks in their vaults  ",
+      "Money deposited with RBI  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 1,
+    "explanation": "Some of the public money is lend, so it is not part of the bank reserves.",
+    "options": [
+      "2 & 3 only",
+      "2, 3 & 4 only",
+      "4 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Money can be created in the economy in which of the following ways: ",
+    "questionOptions": [
+      "Full reserve banking  ",
+      "Fractional reserve banking  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 1,
+    "explanation": "a fraction of deposited money is lended, so new money supply is created. money multiplier = money supply/monetary base",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 & 2",
+      "Neither 1 nor 2"
+    ]
+  },
+  {
+    "question": "Consider the following statements regarding Money Multiplier: ",
+    "questionOptions": [
+      "It increases with increase in reserve requirements of banks ",
+      "It decreases with increase in reserve requirements of banks ",
+      "It increases with Monetary Base  ",
+      "It decreases with Monetary Base  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 1,
+    "explanation": "Money multiplier depends on reserves (CRR/SLR) and currency deposit ratio. It is constant with monetary base.",
+    "options": [
+      "1 only",
+      "2 only",
+      "2 & 3 only",
+      "2 & 4 only"
+    ]
+  },
+  {
+    "question": "Which of the following will increase 'Monetary Base': ",
+    "questionOptions": [
+      "Creation of more credit by banks  ",
+      "Public withdrawing more cash from the banks "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "Monetary base includes 'cash with public' + 'cash with banks' + 'deposits/reserves of banks kept with RBI'",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 & 2",
+      "Neither 1 nor 2"
+    ]
+  },
+  {
+    "question": "Money Multiplier depends on which of the following: ",
+    "questionOptions": [
+      "Currency deposit ratio  ",
+      "Reserve deposit ratio  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "money multiplier = (1+CDR)/(CDR+RDR)",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 & 2",
+      "Neither 1 nor 2"
+    ]
+  },
+  {
+    "question": "Consider the following statements regarding ‘money supply’: ",
+    "questionOptions": [
+      "It can be increased by increasing the money multiplier ",
+      "It can be increased by increasing the monetary base "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "Money supply = (Money Multiplier) X (Monetary Base) ",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 & 2",
+      "Neither 1 nor 2"
+    ]
+  },
+  {
+    "question": "Consider the following statements regarding “Open Market Operations”: ",
+    "questionOptions": [
+      "It changes the monetary base  ",
+      "It changes the money supply  ",
+      "It changes the money multiplier  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 0,
+    "explanation": "When RBI does open market operations, then monetary base changes (RBI buys/sells govt. securities in lieu of cash), due to which money supply also changes. But it does not change money multiplier",
+    "options": [
+      "1 & 2 only",
+      "2 only",
+      "1 & 3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Which of the following is not part of the money supply in the economy: ",
+    "questionOptions": [
+      "Money lying with the government  ",
+      "Deposits of commercial banks with other commercial banks ",
+      "Money lying with the Central bank  ",
+      "Deposits of pubic with commercial banks "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "Money supply is defined as the stock of money in circulation among the public. So, money lying with government, RBI and interbank deposits are not considered as money supply. ",
+    "options": [
+      "1 only",
+      "2 & 4 only",
+      "1 & 2 only",
+      "1, 2 & 3 only"
+    ]
+  },
+  {
+    "question": " Which of the following are part of money supply in the economy: ",
+    "questionOptions": [
+      "Cash and deposits of public  ",
+      "Corporate bonds held by public  ",
+      "Government securities held by public ",
+      "Shares held by public  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 0,
+    "explanation": "Securities like bonds, G-Secs and shares are tradable instruments and their prices fluctuate and are not part of money supply. ",
+    "options": [
+      "1 only",
+      "1, 2 & 3 only",
+      "2 & 3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Consider the following statements regarding ‘Open Market Operations (OMO)’: ",
+    "questionOptions": [
+      "Outright OMOs are directed at influencing enduring liquidity ",
+      "Liquidity Adjustment Facility (LAF) OMO operations target the temporary liquidity in the system "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "2 types of OMO: outright and repo. outright is permanent and no guarantee of reverse trade. but in case of repo, it is guaranteed to reverse the trade.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 & 2",
+      "Neither 1 nor 2"
+    ]
+  },
+  {
+    "question": "If RBI is pumping more money in the economy, then which of the following is true: ",
+    "questionOptions": [
+      "Monetary base is increasing  ",
+      "Money supply is increasing  ",
+      "Money Multiplier is increasing  ",
+      "RBI’s balance sheet is increasing  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "If RBI pumping more money, then monetary base will increase. Will in turn increase money supply. But multiplier remains constant. More money in public so more liabilities of RBI",
+    "options": [
+      "1 only",
+      "1 & 2 only",
+      "2 & 3 only",
+      "1, 2 & 4 only"
+    ]
+  },
+  {
+    "question": "Consider the following statements during times of economic crisis: ",
+    "questionOptions": [
+      "Income velocity of money will decline ",
+      "Increase in reserve money can compensate for the fall in velocity of money "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "IV is how many times the money is circulated in an economy. MM = M3/M0. IV = nominal GDP/M3.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 & 2",
+      "Neither 1 nor 2"
+    ]
+  },
+  {
+    "question": "Which of the following actions will lead to immediate increase in money supply in the economy: ",
+    "questionOptions": [
+      "Individuals purchasing government securities in the primary market ",
+      "Banks purchasing government securities in the primary market ",
+      "Banks purchasing government securities from the public in the secondary market ",
+      "Long Term Repo Operation by RBI to commercial banks "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "money supply is the money with public.",
+    "options": [
+      "1 only",
+      "1 & 2 only",
+      "3 only",
+      "3 & 4 only"
+    ]
+  },
+  {
+    "question": "Consider the following statements: ",
+    "questionOptions": [
+      "Open Market Operation is a monetary policy tool ",
+      "Open Market Operations take place in secondary market ",
+      "Sterilization is a monetary policy tool "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "OMO is a monetary policy tool in secondary market to keep money supply steady. Sterilization or Market Stabilization scheme also to check volatility in money supply.",
+    "options": [
+      "1 only",
+      "1 & 3 only",
+      "3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Consider the following statement regarding ‘Market Stabilization Bonds’ (MSBs): ",
+    "questionOptions": [
+      "These are Treasury bills and Dated securities ",
+      "RBI is empowered to issue MSBs  ",
+      "The interest payment on these bonds is made by government from its budgetary resources "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "MSB are G-sec. It is given to RBI and RBI uses it to remove excess liquidity in the market. Interest payment for MSB are from the govt budget.",
+    "options": [
+      "1 only",
+      "2 only",
+      "2 & 3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Consider the following statements regarding Cash Reserve Ratio (CRR): ",
+    "questionOptions": [
+      "It helps in securing monetary stability and managing liquidity in the economy ",
+      "RBI can change the CRR to any level without any floor or ceiling limit "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "section 42(1) RBI act 1934 - CRR. no limit on CRR. 40% limit on SLR.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 & 2",
+      "Neither 1 nor 2"
+    ]
+  },
+  {
+    "question": "Consider the following statements regarding Cash Reserve Ratio (CRR) kept with RBI by commercial banks: ",
+    "questionOptions": [
+      "It ensures safety to the people’s deposits in banks ",
+      "It ensures solvency of banks ",
+      "It increases the cost of funds for the banks ",
+      "Banks earn interest on CRR  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "Since banks do not earn interest on the CRR, so it is idle money for the banks which increases costs for banks.",
+    "options": [
+      "1 only",
+      "1 & 2 only",
+      "1, 2 & 3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "In the context of Indian economy, which of the following is/are the purpose/purposes of “Statutory Reserve Requirements”: ",
+    "questionOptions": [
+      "To enable the Central Bank to control the amount of advances the banks can create ",
+      "To make the people’s deposits with banks safe and liquid ",
+      "To prevents the commercial banks from making excessive profits ",
+      "To force the banks to have sufficient vault cash to meet their day-to-day requirements "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 0,
+    "explanation": "Through SLR, RBI specifies liquid assets in any form like cash, gold or govt. bonds and not any specific amount of vault cash. ",
+    "options": [
+      "1 only",
+      "1 & 2 only",
+      "2 & 3 only",
+      "1, 2, 3 & 4 only"
+    ]
+  },
+  {
+    "question": " Consider the following statements regarding the 'Monetary Policy Framework' that exists between Govt. of India and Reserve Bank of India: ",
+    "questionOptions": [
+      "The primary objective of Monetary Policy is price stability ",
+      "There is a flexible target for inflation that RBI needs to achieve ",
+      "Monetary Policy Framework is operated by RBI ",
+      "If RBI fails to achieve the target, it needs to submit report to the Govt. of India stating reasons of failure "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "The inflation target is decided by the GoI in consultation with RBI. The inflation is the “CPI – Combined” published by Ministry of Statistics and Programme Implementation (NSO)",
+    "options": [
+      "1 & 2 only",
+      "3 only",
+      "1, 2 & 4 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Consider the following statements regarding the ‘Monetary Policy Framework’: ",
+    "questionOptions": [
+      "The operating target is the money market rate ",
+      "RBI tries to keep the operating target around the government securities yield rate "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 0,
+    "explanation": "MPF is to anchor money market rate in and around the repo rate.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 & 2",
+      "Neither 1 nor 2"
+    ]
+  },
+  {
+    "question": "Which of the following statements are true regarding the Monetary Policy Committee (MPC): ",
+    "questionOptions": [
+      "It has the authority to decide repo rate, CRR, SLR ",
+      "Its decision is binding on RBI  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 1,
+    "explanation": "MPC has the authority to decide only the repo rate and not CRR & SLR or even reverse repo rate. Its decision of repo rate is binding on RBI. ",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 & 2",
+      "Neither 1 nor 2"
+    ]
+  },
+  {
+    "question": "While deciding the repo rate, Monetary Policy Committee may keep in mind the following factors: ",
+    "questionOptions": [
+      "Inflation   ",
+      "Economic Growth   ",
+      "Rupee appreciation/depreciation  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 1,
+    "explanation": "The objective is to primarily maintain price stability, while keeping in mind the objective of growth. ",
+    "options": [
+      "1 only",
+      "1 and 2 only",
+      "All of the above",
+      "None of the above"
+    ]
+  },
+  {
+    "question": "Consider the following statements regarding MPC and its members: ",
+    "questionOptions": [
+      "Three members are appointed by Central Government and three are appointed by Central Board of RBI  ",
+      "The three members appointed by  the Central Government hold office for a period of four years  ",
+      "There should be at least six meetings of the MPC in a year  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "MPC is constituted by RBI Act 1934. Governer(chairman), deputy governor and one RBI officer. 3 nominated GoI members. simple majority vote.",
+    "options": [
+      "1 & 2 only",
+      "1 & 3 only",
+      "2 only",
+      "3 only"
+    ]
+  },
+  {
+    "question": "Which of the following statements are true regarding ‘Marginal Standing Facility’ (MSF): ",
+    "questionOptions": [
+      "Scheduled commercial banks borrow additional amount for overnight ",
+      "The banks can dip into their SLR portfolio to borrow from RBI ",
+      "It provides a safety valve against unanticipated liquidity shocks "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "It is a temporary emergency loan for scheduled banks from RBI with interest rate higher than repo rate. They can use their own SLR to take loans.",
+    "options": [
+      "1 & 2 only",
+      "1 & 3 only",
+      "3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Which of the following facility/instruments is/are available at RBI's discretion and not banks: ",
+    "questionOptions": [
+      "Reverse Repo Rate  ",
+      "Marginal Standing Facility  ",
+      "Standing Deposit Facility  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 0,
+    "explanation": "Banks can deposit money in RBI with SDF and lend from RBI with MSF.",
+    "options": [
+      "1 only",
+      "1 and 2 only",
+      "3 only",
+      "2 and 3 only"
+    ]
   }
 ]
 module.exports = EconomicsNew;
