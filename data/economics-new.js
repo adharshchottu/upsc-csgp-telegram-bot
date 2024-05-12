@@ -2159,9 +2159,9 @@ const EconomicsNew = [
   {
     "question": "Which of the following facility/instruments is/are available at RBI's discretion and not banks: ",
     "questionOptions": [
-      "Reverse Repo Rate  ",
-      "Marginal Standing Facility  ",
-      "Standing Deposit Facility  "
+      "Reverse Repo Rate",
+      "Marginal Standing Facility",
+      "Standing Deposit Facility"
     ],
     "questionDirection": "Select the correct answer using the code given below",
     "answer": 0,
@@ -2171,6 +2171,513 @@ const EconomicsNew = [
       "1 and 2 only",
       "3 only",
       "2 and 3 only"
+    ]
+  },
+  {
+    "question": "The \"Consumer Confidence Survey\" in India is conducted by which of the following",
+    "answer": 0,
+    "explanation": "The survey captures qualitative responses on questions pertaining to economic conditions, household circumstances, income, spending, prices and employment prospects. CCS started in June 2010.",
+    "options": [
+      "Reserve Bank of India",
+      "National Statistical Office (NSO)",
+      "Department of Consumer Affairs",
+      "Ministry of Labour & Employment"
+    ]
+  },
+  {
+    "question": "Which of the following agencies conducts ‘inflation expectation survey’ of households in India",
+    "answer": 2,
+    "explanation": "RBI conducts quarterly 'inflation expectation survey' of households wherein RBI gauges the household’s expectation regarding inflation for the next one year. These surveys are used for MPC purpose. ",
+    "options": [
+      "Ministry of Statistics and Programme Implementation",
+      "National Statistical Office",
+      "Reserve Bank of India",
+      "Ministry of Finance"
+    ]
+  },
+  {
+    "question": "Which of the following situations may lead to increase in repo rate by RBI: ",
+    "questionOptions": [
+      "Inflation in the economy is high  ",
+      "Inflation expectation in the economy is high "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "Inflation expectation also can cause increase in inflation, so to check this expected inflation, RBI increases repo rate.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 & 2",
+      "Neither 1 nor 2"
+    ]
+  },
+  {
+    "question": " If the US Central Bank raises their interest rate, then it may lead to which of the following: ",
+    "answer": 0,
+    "explanation": "as US economy is more strong and big than India, when US interest rates increases investors flocks to US, thus demand in India decreases, causing money out flow.",
+    "options": [
+      "Rupee depreciation",
+      "Rupee appreciation",
+      "Investors moving to India",
+      "Increase in money supply"
+    ]
+  },
+  {
+    "question": "Which of the following RBI may do to curb the rupee depreciation: ",
+    "questionOptions": [
+      "Allowing importers to directly buy foreign currency from RBI ",
+      "Increasing the repo rate  ",
+      "Selling dollars in foreign exchange market ",
+      "Buying dollars in foreign exchange market "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "Direct transaction with RBI, doesn't affect usd-inr rate so rupee wont depreciate. increase in repo rate attract FPI, so rupee appreciate. selling dollars appreciate rupee.",
+    "options": [
+      "1 & 3 only",
+      "2 & 3 only",
+      "1, 2 & 3 only",
+      "1, 2 & 4 only"
+    ]
+  },
+  {
+    "question": "Consider the following statement regarding the term “Operation Twist”: ",
+    "questionOptions": [
+      "It is a kind of open market operation ",
+      "RBI pumps additional money into the system to increase liquidity ",
+      "It helps in monetary transmission  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "Operation Twist is an OMO by RBI. It buys long term bonds from banks and give the money to banks. so that banks can lend. so interest rate goes down.",
+    "options": [
+      "1 & 2 only",
+      "2 & 3 only",
+      "1 & 3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Which of following statements are true regarding “Long Term Repo Operations”: ",
+    "questionOptions": [
+      "It comes under liquidity adjustment facility ",
+      "The interest rate should be at or above the repo rate ",
+      "It is long term lending by RBI  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "LTRO is long term lending by RBI at or above repo rate. rate depends on demand and are not below repo rate. Repo as well as term repo auctions are part of liquidity adjustment facility.",
+    "options": [
+      "1 & 3 only",
+      "2 & 3 only",
+      "2 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Which of the following could be the impact of Long-Term Repo Operation (LTRO) conducted by RBI: ",
+    "questionOptions": [
+      "Increase in money supply  ",
+      "Increase in inflation  ",
+      "Increase in interest rate  ",
+      "Increase in liquidity with banks "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "LTRO impoves liquidity, so money supply increase, which cause increase in inflation. Interest rate will go down first due to increased money supply, but go up later due to inflation.",
+    "options": [
+      "1, 2 & 3 only",
+      "1 & 4 only",
+      "1, 2 & 4 only",
+      "2, 3 & 4 only"
+    ]
+  },
+  {
+    "question": "Which of the following could be the reasons for the deficit in banking system liquidity: ",
+    "questionOptions": [
+      "An uptick in the bank credit  ",
+      "Advance tax payments by corporates ",
+      "Incremental deposit growth not keeping pace with credit demand ",
+      "Intervention of the RBI into the forex market to prevent rupee depreciation "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "More credits, less money. advance tax payments means govt get more money. higher credit demand than deposits, liquidity deficit. RBI buying more rupee, then also liquidity deficit.",
+    "options": [
+      "2 & 3 only",
+      "3 & 4 only",
+      "1, 2 & 4 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Consider the following statements regarding the “Monetary Policy” followed by RBI: ",
+    "questionOptions": [
+      "It follows flexible inflation target  ",
+      "While inflation is in control, RBI can focus on growth ",
+      "Financial Stability is the explicit mandate of monetary policy ",
+      "Achieving monetary policy objective will ensure financial stability "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 1,
+    "explanation": "primary objective of the monetary policy is to maintain price stability while keeping in mind the objective of growth. so not financial stability but price stability",
+    "options": [
+      "1 only",
+      "1 & 2 only",
+      "2 & 4 only",
+      "2, 3 & 4 only"
+    ]
+  },
+  {
+    "question": "Which of the following monetary policy tools are used at RBI’s discretion rather than banks availing the facility as per their own requirement: ",
+    "questionOptions": [
+      "Open market operation  ",
+      "Long Term Repo Operation  ",
+      "Overnight fixed rate repo lending  ",
+      "Reverse repo auction  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "OMO, LTRO, repo and reverse repo => RBI. SDF, MSF => Banks.",
+    "options": [
+      "1 & 2 only",
+      "2, 3 & 4 only",
+      "1 & 4 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Which of the following statements are true regarding the Marginal Cost of Funds based Lending Rate (MCLR): ",
+    "questionOptions": [
+      "Banks will do lending at or above MCLR ",
+      "MCLR may increase because of increase in CRR/SLR ",
+      "MCLR helps in better transmission of policy rate as compared to base rate "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "Base rate is the rate below that bank's can't lend. 1 April 2016, RBI introduce MCLR. now lending rates are calculated on Marginal cost rather than earlier average cost.",
+    "options": [
+      "1 & 2 only",
+      "1 & 3 only",
+      "3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Consider the following statements regarding the interest rates linked with an external benchmark rate: ",
+    "questionOptions": [
+      "External benchmark rate can be repo rate or yield on government securities ",
+      "Once repo rate changes the lending rate of banks will automatically change ",
+      "Banks are mandated by RBI to link the deposit and lending rate with external benchmark rate "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 1,
+    "explanation": "banks are not mandated to do so",
+    "options": [
+      "1 only",
+      "1 & 2 only",
+      "2 only",
+      "1 & 3 only"
+    ]
+  },
+  {
+    "question": " Consider the following statements regarding the “spread” charged over the external benchmark rate by the banks: ",
+    "questionOptions": [
+      "The spread will be decided by the banks ",
+      "The spread will change with the change of external benchmark rate ",
+      "The spread may be different for different category of loans "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "Internal Marginal Cost of Funds based Lending Rate (MCLR) is called spread. Mandated by RBI to link lending rate with external rate to transfer the benefit of interest rate changes.",
+    "options": [
+      "1 & 2 only",
+      "2 & 3 only",
+      "1 & 3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Consider the following statements regarding Non-Banking Finance Companies (NBFCs): ",
+    "questionOptions": [
+      "RBI mandates NBFCs to link their lending rates with an anchor rate ",
+      "MCLR is an anchor rate which acts as external benchmark rate "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "MLCR is the internal rate.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 & 2",
+      "Neither 1 nor 2"
+    ]
+  },
+  {
+    "question": "Which of the following could create a hindrance in achieving the objective of inflation targeting by RBI: ",
+    "questionOptions": [
+      "Government deviating from the fiscal road map ",
+      "Impediments in monetary policy transmission ",
+      "Supply side bottlenecks "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "Govt spending more will cause inflation. Through repo rate RBI check inflation, but since monetary policy transmission is blocked, the checks may not work. supply can affect inflation.",
+    "options": [
+      "1 only",
+      "1 & 2 only",
+      "2 & 3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Which of the following market plays the major role in transmission of monetary policy? ",
+    "answer": 1,
+    "explanation": "monetary policy is applied on money market, which in fact influences  other markets",
+    "options": [
+      "Government Securities market",
+      "Money Market",
+      "Forex market",
+      "Capital Market"
+    ]
+  },
+  {
+    "question": "Consider the following statements regarding real and nominal interest rate: ",
+    "questionOptions": [
+      "Real Interest Rate must be positive to encourage savings and reduce consumption ",
+      "Nominal interest rate must be positive to attract savings in banks ",
+      "Real interest rate is always positive "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 1,
+    "explanation": "Nominal Interest Rate = Inflation + Real Interest Rate. when the inflation is so high, bank don't increase real interest rates, but still nominal interest rates will be positive.",
+    "options": [
+      "1 only",
+      "1 & 2 only",
+      "2 & 3 only",
+      "2 only"
+    ]
+  },
+  {
+    "question": "Which of the following factors may lead to increase in savings in the economy: ",
+    "questionOptions": [
+      "Positive real interest rate  ",
+      "Low inflation rate  ",
+      "Rise in per capita income  ",
+      "Growth of financial intermediaries  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "When inflation in the economy is low, people expenses decreases and they are able to save more.",
+    "options": [
+      "3 only",
+      "3 & 4 only",
+      "2 & 3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "The term ‘Inflation Premium’ refers to",
+    "answer": 2,
+    "explanation": "Inflation premium is the higher return that investors demand in exchange for investing in a long-term security where inflation has a greater potential to reduce the real return.",
+    "options": [
+      "Higher nominal return that equity investors get due to increase in inflation",
+      "It is the risk that investors have to face because of higher inflation",
+      "It the higher return that investors demand in exchange for investing in a long-term security because of higher inflation risk",
+      "It is the high return that short term bond investors demand due to higher inflation risk"
+    ]
+  },
+  {
+    "question": "Inflation in the economy generally leads to which of the following: ",
+    "questionOptions": [
+      "Depreciation of currency  ",
+      "Appreciation of currency  ",
+      "Increase in real interest rate  ",
+      "Increase in nominal interest rate  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "If there is inflation in the economy, it leads to loss in the value of currency i.e. currency depreciates.\nNominal interest rate (deposit rate) = Inflation + real interest rate ",
+    "options": [
+      "1 & 3 only",
+      "2 & 3 only",
+      "1 & 4 only",
+      "1, 3 & 4 only"
+    ]
+  },
+  {
+    "question": "If an economy is in “Liquidity Trap”, then which of the following statements shall be true: ",
+    "questionOptions": [
+      "The interest rate in the market will be very low/zero ",
+      "People and businesses both will hold on to their cash and don’t spend ",
+      "Yield on bonds will be very less  ",
+      "Demand Deposits of banks increases  "
+    ],
+    "answer": 3,
+    "explanation": "low money supply is liquidity trap. the interest rate will be almost zero and further reduction is not possible. similary bond yield will be low, as it is proportional to the interest rate.",
+    "options": [
+      "1 only",
+      "2 & 4 only",
+      "1, 2 & 4 only",
+      "All of the above"
+    ],
+    "questionDirection": "Select the correct answer using the code given below"
+  },
+  {
+    "question": "Consider the following statements:  ",
+    "questionOptions": [
+      "Inflation benefits creditors  ",
+      "Inflation benefits debtors  ",
+      "Inflation benefits bondholders  ",
+      "Inflation benefits depositors    "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 1,
+    "explanation": "physical assets value increase, but financial assets value decreases due to inflation.",
+    "options": [
+      "1 & 3 only",
+      "2 only",
+      "3 only",
+      "1, 3 & 4 only"
+    ]
+  },
+  {
+    "question": " If a country is experiencing inflation, then what will decrease: ",
+    "answer": 3,
+    "explanation": "PP decreases as inflation increases",
+    "options": [
+      "Wage level",
+      "The output of goods and services",
+      "The amount of money needed to purchase a given quantity of goods and services",
+      "Purchasing Power"
+    ]
+  },
+  {
+    "question": "Which of the following will be the outcome if an economy is under the inflationary pressure: ",
+    "questionOptions": [
+      "Domestic currency heads for depreciation ",
+      "Exports become less competitive with imports getting costlier ",
+      "Cost of borrowing decreases  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 1,
+    "explanation": "inflation will depreciate currency. so local products price increase, so export become expensive. due to currency depreciation, imports need more money. interest rate and cost of borrowing increases.",
+    "options": [
+      "1 only",
+      "1 & 2 only",
+      "2 & 3 only",
+      "1 & 3 only"
+    ]
+  },
+  {
+    "question": "Which of the following may lead to an increase in the overall prices: ",
+    "questionOptions": [
+      "Increase in effective demand  ",
+      "Decrease in the aggregate level of output ",
+      "Increase in aggregate output  ",
+      "An increase in overall employment  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "demand increase, supply decrease then inflation go up.",
+    "options": [
+      "1 & 4 only",
+      "2 & 4 only",
+      "1, 2 & 4 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Which of the following will necessarily  lead to inflation?  ",
+    "answer": 1,
+    "explanation": "only effect demand has effect on inflation, else there is a chance the other variable may go down.",
+    "options": [
+      "Increase in aggregate demand",
+      "Increase in effective demand",
+      "Decrease in aggregate output",
+      "Increase in government spending"
+    ]
+  },
+  {
+    "question": "If the supply of money is increased in the economy, then which of the following statements are true",
+    "answer": 1,
+    "explanation": "Increase in money supply may not necessarily lead to economic growth. But when the supply of money increases, the interest rate comes down (concept of demand and supply).",
+    "options": [
+      "It may lead to increase in interest rates",
+      "It may lead to decrease in interest rates",
+      "It will necessarily lead to economic growth",
+      "None of the above"
+    ]
+  },
+  {
+    "question": "Which of the following scenarios can support sustainable economic growth: ",
+    "questionOptions": [
+      "Deflation  ",
+      "Low and moderate inflation  ",
+      "Galloping inflation  ",
+      "Hyperinflation  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 0,
+    "explanation": "Low and moderate inflation is good for economic growth as it creates demand in the \neconomy and people are also willing to save money in banks which ultimately increases \ninvestment. ",
+    "options": [
+      "2 only",
+      "1 & 2 only",
+      "2 & 3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Which of the following are the reasons that make a moderate level of inflation good for the economy: ",
+    "questionOptions": [
+      "It increases consumption levels  ",
+      "It keeps businesses profitable  ",
+      "It induces people to save more  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "inflation induce people to save more and to spend now, as the price will go up in future.",
+    "options": [
+      "2 only",
+      "1 & 2 only",
+      "3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Consider the following statements  regarding an economy facing deflation:  ",
+    "questionOptions": [
+      "Companies defer their investments  ",
+      "People defer their expenditures  ",
+      "Demand decreases  ",
+      "Unemployment increases    "
+    ],
+    "answer": 3,
+    "explanation": "economy will slow down.",
+    "options": [
+      "1 & 2 only",
+      "3 only",
+      "3 & 4 only",
+      "All of the above"
+    ],
+    "questionDirection": "Select the correct answer using the code given below"
+  },
+  {
+    "question": "Which of the following factors could potentially contribute to stagflation in the Indian economy: ",
+    "questionOptions": [
+      "High inflationary pressures due to increased Government spending ",
+      "Expansionary monetary policy  ",
+      "Decline in industrial production and sluggish economic growth ",
+      "Decrease in aggregate demand and consumer spending "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 1,
+    "explanation": "“Stagflation” is a combination of two words, “inflation” and “stagnation.” it includes high inflation, poor growth and \nrising unemployment",
+    "options": [
+      "1 & 2 only",
+      "1, 2 & 3 only",
+      "4 only",
+      "All of the above"
     ]
   }
 ]
