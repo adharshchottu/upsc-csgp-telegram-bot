@@ -40,6 +40,10 @@
       {
         "src": "articles.js",
         "use": "@vercel/node"
+      },
+      {
+        "src": "rivers.js",
+        "use": "@vercel/node"
       }
     ],
     "routes": [
@@ -78,6 +82,10 @@
       {
         "src": "/articles",
         "dest": "/articles.js"
+      },
+      {
+        "src": "/rivers",
+        "dest": "/rivers.js"
       }
     ]
   }

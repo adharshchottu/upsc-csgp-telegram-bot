@@ -175,7 +175,6 @@ async function generateQuestion() {
     const today = getCurrentDateIST();
     const currentHour = today.getHours();
     const currentTimeSlot = Math.floor(currentHour / 4);
-    console.log(currentTimeSlot)
     const questionObject = questionsFunctions[currentTimeSlot]
     const containsOnlyUniqueItems = arr => arr.length === new Set(arr).size;
     if (questionObject.options.length != 4 && containsOnlyUniqueItems(questionObject.options)) {
