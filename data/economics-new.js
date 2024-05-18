@@ -2679,6 +2679,535 @@ const EconomicsNew = [
       "4 only",
       "All of the above"
     ]
+  },
+  {
+    "question": "Which of the following are supply side  factor/s responsible for inflation: ",
+    "questionOptions": [
+      "Increase in exports  ",
+      "Increase in government  expenditure  ",
+      "Increase in credit creation    "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "all are demand driven inflation factors and nothing has to do with supply.",
+    "options": [
+      "1 only",
+      "2 & 3 only",
+      "1 & 3 only",
+      "None of the above"
+    ]
+  },
+  {
+    "question": " Which of the following are causes of  demand-pull inflation:   ",
+    "questionOptions": [
+      "Lower interest rate  ",
+      "Higher government expenditure  ",
+      "Higher cost of inputs    "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 0,
+    "explanation": "Demand-pull inflation occurs in the economy when the aggregate demand in the economy increases more rapidly as compared to the productive capacity of economy.  ",
+    "options": [
+      "1 & 2 only",
+      "2 only",
+      "3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "If the interest rate is decreased in an  economy, it will ? ",
+    "answer": 2,
+    "explanation": "When the cost of money (interest rate) is cheaper in the economy, it helps in investment. For investment, the main cost is cost of capital i.e., the rate at which capital/money is \navailable. ",
+    "options": [
+      "Decrease the consumption expenditure in the economy",
+      "Increase the tax collection of the Government",
+      "Increase the investment expenditure in the economy",
+      "Increase the total savings in the economy"
+    ]
+  },
+  {
+    "question": "Consider the following statements:  ",
+    "questionOptions": [
+      "High output leads to high  unemployment  ",
+      "High unemployment leads to high  inflation    "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "When the unemployment in the economy is high, people have less money to purchase goods and services i.e., the demand in the economy decreases which leads to decrease \nin prices. ",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 & 2",
+      "Neither 1 nor 2"
+    ]
+  },
+  {
+    "question": "Consider the following statements in  the context of inflation:    ",
+    "questionOptions": [
+      "An overheating economy is an  economy that is expanding at an  unsustainable rate  ",
+      "Increasing interest rate by RBI is  more effective in case of demand  pull- inflation rather than in cost  push    "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "low unemployment and rising inflation causes and overheating economy. ",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 & 2",
+      "Neither 1 nor 2"
+    ]
+  },
+  {
+    "question": "The term ‘Reflation’ of economy is  related to which of the following:   ",
+    "questionOptions": [
+      "Fiscal stimulus to expand the  output  ",
+      "It tries to curb the effects of  deflation  ",
+      "Monetary stimulus by reducing  the interest rate    "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "Reflation is a fiscal or monetary policy designed to expand output, stimulate spending and curb the effects of deflation, which usually occurs after a period of economic \nuncertainty or recession.",
+    "options": [
+      "1 only",
+      "3 only",
+      "1 & 3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Consider the following statements  regarding an economy facing  disinflation:    ",
+    "questionOptions": [
+      "Companies defer their investments  ",
+      "People defer their expenditures  ",
+      "Demand decreases  ",
+      "Unemployment increases    "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "In an economy when inflation decreases, the demand of goods and services increases and people spending increases and it supports business activity resulting in decrease in \nunemployment.",
+    "options": [
+      "1 only",
+      "1 & 3 only",
+      "None of the above",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Consider the following statements  regarding \"Sovereign Gold Bonds\":    ",
+    "questionOptions": [
+      "These are government securities  denominated in grams of gold  ",
+      "Issued by RBI on behalf of Govt. of  India  ",
+      "Investors will receive fixed interest  rate  ",
+      "If the market price of gold  declines, investors will be  protected against capital loss    "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "Sovereign Gold Bonds (SGB) are government securities denominated in grams of gold. The Bond is issued by RBI on behalf of Government of India.",
+    "options": [
+      "1 & 2 only",
+      "2 & 3 only",
+      "1, 2 & 3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Consider the following statements  regarding the recently launched  ‘Sovereign Green Bonds (SGB)’:    ",
+    "questionOptions": [
+      "These bonds will be part of Govt.  borrowing and will be debt. on  Govt. of India  ",
+      "The proceeds will be deployed in  public sector projects which help  in reducing the carbon intensity of  the economy  ",
+      "The proceeds of SGB can be used  for investment, subsidies, grant in-aid or tax forgone    "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "IT will be eligible for Repurchase Transactions (Repo), also reckoned as eligible investment for SLR purpose, and it will be eligible for trading in the secondary market ",
+    "options": [
+      "1 & 2 only",
+      "2 & 3 only",
+      "1 & 3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "The recently constituted Green  Finance Working Committee (GFWC)  will be chaired by",
+    "answer": 2,
+    "explanation": "MoF constituted GFWC including members from relevant ministries and CEA. it will meet at least twice a year to support MoF with selection of projects from those submitted by different departments ",
+    "options": [
+      "Union Finance Minister",
+      "RBI Governor",
+      "Chief Economic Advisor",
+      "None of the above"
+    ]
+  },
+  {
+    "question": "Which of the following will help in  reducing the current account deficit: ",
+    "questionOptions": [
+      "Adopting suitable policies to  attract FDI/FPI  ",
+      "The foreign currency earnings of  India’s IT sector  ",
+      "Foreign investments in Govt.  securities    "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 0,
+    "explanation": "When foreign investors invest in a country then one of the major target is exports from that country. Foreign investments in Govt. securities will impact capital account. ",
+    "options": [
+      "1 & 2 only",
+      "1 & 3 only",
+      "3 only",
+      "2 & 3 only"
+    ]
+  },
+  {
+    "question": " Integrated Ombudsman Scheme is  applicable on:     ",
+    "questionOptions": [
+      "Banks   ",
+      "NBFCs  ",
+      "Payment System Providers  ",
+      "Credit Information Companies  (CIC)    "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "Integrated Ombudsman Scheme, 2021 integrates the earlier three Ombudsman schemes of RBI",
+    "options": [
+      "1 only",
+      "1 & 2 only",
+      "2 & 3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Consider the following statements  regarding the ‘Integrated Ombudsman  Scheme, 2021’:    ",
+    "questionOptions": [
+      "RBI will appoint the Ombudsman  for a period not exceeding five  years at a time  ",
+      "There is a limit to the dispute  value that can be brought before  the Ombudsman    "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "The scheme will provide cost-free redress of customer complaints involving deficiency in services rendered by entities regulated by RBI i.e., banks, NBFCs ",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 & 2",
+      "Neither 1 nor 2"
+    ]
+  },
+  {
+    "question": "Consider the following statements regarding 'Kisan Credit Card (KCC)' scheme: ",
+    "questionOptions": [
+      "It provides short term credit for  cultivation of crops as well as long  term credit  ",
+      "It provides credit for consumption  requirements of farmers household  ",
+      "Available to owner cultivator,  tenant farmers and share croppers     "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "KKC scheme is an innovative credit delivery mechanism to meet \nthe production credit requirements of the farmers in a timely and hassle-free manner. ",
+    "options": [
+      "1 only",
+      "1 & 3 only",
+      "2 & 3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Which of the following category of  financial institutions are not involved  in the implementation of Kisan Credit  Cards (KCC)?    ",
+    "answer": 3,
+    "explanation": "The Kisan Credit Card Scheme is being implemented by Commercial Banks, RRBs, \nSmall Finance Banks and Cooperatives. ",
+    "options": [
+      "Regional Rural Banks (RRBs)",
+      "Cooperative Banks",
+      "Small Finance Banks",
+      "Non-Banking Financial Institutions (NBFCs)"
+    ]
+  },
+  {
+    "question": "Which category of financial  institutions have the highest share in  agricultural credit",
+    "answer": 0,
+    "explanation": "Share of Commercial banks credit to agriculture sector is around 80%. ",
+    "options": [
+      "Commercial Banks (excluding regional rural banks)",
+      "Regional Rural banks",
+      "Cooperative Banks",
+      "Non-Banking Financial Companies"
+    ]
+  },
+  {
+    "question": "Which of the following statements are  true regarding the \"Prompt Corrective  Action (PCA)\" framework for banks:    ",
+    "questionOptions": [
+      "It is a supervisory tool of RBI for  effective market discipline   ",
+      "It applies once financial  institutions reach certain  threshold level regarding Capital,  asset quality and leverage    "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "The RBI introduced the PCA framework in 2002 as a structured early-intervention mechanism for banks that become undercapitalised due to poor asset quality, or vulnerable due to loss of profitability.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 & 2",
+      "Neither 1 nor 2"
+    ]
+  },
+  {
+    "question": "Which of the following actions RBI can  take once it declares a particular bank  under Prompt Corrective Action:   ",
+    "questionOptions": [
+      "Prohibit lending   ",
+      "Increase in provisioning   ",
+      "Bring in new management or  supersede the bank’s board  ",
+      "Bank merger    "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "Prompt Corrective Action (PCA) is a supervisory framework of RBI where it uses various \nmeasures/tools to maintain sound financial health of banks. ",
+    "options": [
+      "1 & 2 only",
+      "2 & 4 only",
+      "3 & 4 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Consider the following statements  regarding the ‘Supervisory Action  Framework’:    ",
+    "questionOptions": [
+      "It is applicable for Urban Cooperative banks  ",
+      "It can be initiated in case of  serious governance issues    "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "Since a lot of urban-cooperative banks (UCBs) were also facing issues, RBI has brought \nin “Supervisory Action Framework” (SAF) for UCBs in place of PCA for commercial \nbanks.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 & 2",
+      "Neither 1 nor 2"
+    ]
+  },
+  {
+    "question": "The theme for the ‘Financial Literacy  Week’ 2023 was",
+    "answer": 1,
+    "explanation": "RBI has been conducting Financial Literacy Week (FLW) every year since 2016 to \npropagate financial education messages on a particular theme among members of \npublic across the country. ",
+    "options": [
+      "Go digital, go secure",
+      "Good financial behaviour – your saviour",
+      "Micro Small and Medium Enterprises",
+      "Credit Discipline and Credit from Formal Institutions"
+    ]
+  },
+  {
+    "question": "RBI manages its forex reserves as:    ",
+    "questionOptions": [
+      "Deposits with Bank for  International Settlement (BIS)  ",
+      "Deposits with Foreign Commercial  banks  ",
+      "Deposits with foreign Central  banks  "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "Debt instruments representing sovereign or sovereign-guaranteed liability, Other instruments/institutions as approved by the Central Board of RBI ",
+    "options": [
+      "1 only",
+      "2 only",
+      "1 & 3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": " Which of the following statements is  true regarding “Line of Credit”:",
+    "answer": 2,
+    "explanation": "A preset amount of money that a bank has agreed to lend to a \ncompany/individual. It can draw from the LoC when it needs up to \nthe maximum amount. It will pay interest only on the amount used. ",
+    "options": [
+      "It is issued by one bank to another",
+      "It is issued mainly in case of international transactions",
+      "It is a preset amount of money that a bank has agreed to lend",
+      "The company will have to pay interest on the amount for which line of credit has been issued"
+    ]
+  },
+  {
+    "question": "Which of the following statements are  true regarding “Teaser Loans”:",
+    "questionOptions": [
+      "It is a fixed cum floating loan  product  ",
+      "These are short term loans  ",
+      "These loans are banned by RBI    "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 0,
+    "explanation": "“Teaser Loans” is the unofficial term used to describe housing loans that carry ultra-low \nfixed rates in the initial years, but charge market-linked rates thereafter.",
+    "options": [
+      "1 only",
+      "1 & 2 only",
+      "3 only",
+      "2 & 3 only"
+    ]
+  },
+  {
+    "question": "The term “provisioning” in the banking  sector is related to which of the  following",
+    "answer": 1,
+    "explanation": "In banking lexicon, provisioning means to set aside (keep separate as reserve) or provide \nsome funds to cover up losses if things go wrong or some of their loans turn into bad \nassets. ",
+    "options": [
+      "It is the loss that the bank incurs on sale of bad assets",
+      "It is the amount of fund that the bank needs to set aside when the loan turns NPA",
+      "It is the minimum amount of funds that the depositors will receive when the bank goes bankrupt",
+      "It is the minimum amount which the borrower will have to pay even if the loan turns NPA"
+    ]
+  },
+  {
+    "question": "Consider the following statements  regarding ‘First Loss Default  Guarantee (FLDG)’:  ",
+    "questionOptions": [
+      "It has been approved by RBI  ",
+      "It’s a contractual agreement  between banks and Fintechs  under which Fintechs give  guarantee for loss due to default  ",
+      "The loan is shared on the books of  banks and Fintechs    "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 0,
+    "explanation": "A contractual arrangement between a Regulated Entity and Lending Service Providers guarantees to compensate \nthe  loss due to default up to a certain percentage of the loan portfolio.",
+    "options": [
+      "1 & 2 only",
+      "2 & 3 only",
+      "3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "The term 'ANTARDRISHTI' was  recently in the news, is related to  which of the following",
+    "answer": 1,
+    "explanation": "a Financial Inclusion Dashboard of RBI. The \ndashboard provides the required insight to assess and monitor the progress of financial \ninclusion by capturing relevant parameters.",
+    "options": [
+      "Internal security",
+      "Financial Inclusion",
+      "Capital markets",
+      "Health sector"
+    ]
+  },
+  {
+    "question": "Consider the following statements:    ",
+    "questionOptions": [
+      "Capital Adequacy Ratio (CAR) is  the amount that banks have to  maintain in the form of their own  funds to offset any loss that banks  incur if the accountholders fail to  repay dues.  ",
+      "CAR is decided by each individual  bank.    "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 0,
+    "explanation": "ratio of a bank’s capital to its risk weighted asset \nratio. RBI mandates how much CAR has to be maintained by \nbanks. As per Basel III norms, banks need to maintain 11.5% CAR.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 & 2",
+      "Neither 1 nor 2"
+    ]
+  },
+  {
+    "question": "Consider the following statements  regarding ‘Additional Tier 1 bonds’:    ",
+    "questionOptions": [
+      "They are part of capital under  Basel III norms  ",
+      "They are perpetual in nature and  have no maturity period  ",
+      "They can be written down in case  of bank failure    "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "these bonds are perpetual and carry no maturity date. Instead, they carry call \noptions that allow banks/issuers to redeem them after five or 10 years.",
+    "options": [
+      "2 only",
+      "3 only",
+      "1 & 3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Which of the following statements are  true regarding the “Liberalized  Remittance Scheme” (LRS):   ",
+    "questionOptions": [
+      "It is applicable for Individuals only  and not companies  ",
+      "It is applicable for both current  and capital account  ",
+      "Foreign exchange trading is not  permitted in this scheme    "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "The window that was opened up in 2004 for individuals to remit/send money across \nthe border, without seeking specific approvals, was called the Liberalised \nRemittance Scheme (LRS).",
+    "options": [
+      "1 only",
+      "1 & 3 only",
+      "2 & 3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Which of the following instruments  are permitted for receiving ‘foreign  investment’ in an Indian Company:   ",
+    "questionOptions": [
+      "Equity shares  ",
+      "Debentures  ",
+      "Preference Shares  ",
+      "Share Warrants    Select the correct answer using the  code given below"
+    ],
+    "answer": 3,
+    "explanation": "Foreign Investment means any investment made by a ‘person’ resident outside India \nin ‘capital instruments’ of an Indian company. Person means foreign individuals, \nNRIs, companies etc.",
+    "options": [
+      "1 only",
+      "1 & 3 only",
+      "2 & 3 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": "Which of the following can be treated  as FDI:  ",
+    "questionOptions": [
+      "Investment in Central and State  Govt. securities  ",
+      "Foreign Currency Convertible  Bonds (FCCB)  ",
+      "Global Depository Receipts (GDRs)  ",
+      "Financial Lease    "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 1,
+    "explanation": "Govt. cannot issue equity securities and hence Govt. securities are always of debt in \nnature. Hence, investment in Govt. securities cannot be classified as FDI ",
+    "options": [
+      "1 & 2 only",
+      "2 & 3 only",
+      "2, 3 & 4 only",
+      "All of the above"
+    ]
+  },
+  {
+    "question": " Foreign Direct Investment (FDI) in  India can happen by which of the  following ways:    ",
+    "questionOptions": [
+      "Subsidiary  ",
+      "Joint Venture  ",
+      "Acquisition of shares    "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 2,
+    "explanation": "purchasing shares of Indian company, in collaboration with an Indian company establishing a new \ncompany called Joint Venture Company in India, establishing a subsidiary or a child company in India ",
+    "options": [
+      "1 & 2 only",
+      "2 & 3 only",
+      "1, 2 & 3 only",
+      "3 only"
+    ]
+  },
+  {
+    "question": "Consider the following statements  regarding Foreign Direct Investment  (FDI):    ",
+    "questionOptions": [
+      "FDI investment happens mainly  through primary market  ",
+      "FDI investment is about equity  securities  ",
+      "FDI investment can happen  through convertible debentures    "
+    ],
+    "answer": 3,
+    "explanation": "FDI investors are not allowed to purchase debt securities.",
+    "options": [
+      "1 only",
+      "1 & 2 only",
+      "1 & 3 only",
+      "All of the above"
+    ],
+    "questionDirection": "Select the correct answer using the code given below"
+  },
+  {
+    "question": "Consider the following statements  regarding Foreign Portfolio Investors  (FPI):    ",
+    "questionOptions": [
+      "FPI is mainly into secondary  market  ",
+      "FPI investment may happen  through primary market  ",
+      "They can invest both in debt and  equity    "
+    ],
+    "questionDirection": "Select the correct answer using the code given below",
+    "answer": 3,
+    "explanation": "FPI can easily go and come.",
+    "options": [
+      "1 only",
+      "2 only",
+      "2 & 3 only",
+      "All of the above"
+    ]
   }
 ]
 module.exports = EconomicsNew;
