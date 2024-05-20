@@ -283,6 +283,49 @@ const rivers = new Map([
         states: ["Kerala"],
         mouth: "Alappuzha",
         tributaries: ["Manimala", "Achankovil", "Azhuthayar", "Kakkiar"]
+    }],
+    ["Indus", {
+        source: "Lake Manasarovar(Tibet)",
+        mouth: "Indus Delta(Karachi)",
+        countries: ["China", "Pakistan"],
+        states: ["Jammu & Kashmir"],
+        tributaries: ["Shyok", "Gilgit", "Hunza", "Swat", "Kurram", "Gomal", "Kabul", "Zaskar", "Suru", "Soan", "Jhelum", "Chenab", "Ravi", "Beas", "Sutlej", "Panjnad"]
+    }],
+    ["Jhelum", {
+        source: "Verinag",
+        states: ["Jammu & Kashmir"],
+        mainstem: "Indus",
+        confluence: "Trimmu",
+        countries: ["Pakistan"]
+    }],
+    ["Chenab", {
+        source: "Tandi",
+        states: ["Himachal Pradesh", "Jammu & Kashmir"],
+        countries: ["Pakistan"],
+        confluence: "Mithankot",
+        mainstem: "Indus",
+        tributaries: ["Bhaga", "Chandra"]
+    }],
+    ["Ravi", {
+        source: "Bara Banghal",
+        states: ["Himachal Pradesh", "Punjab"],
+        countries: ["Pakistan"],
+        confluence: "Ahmadpur Sial",
+        mainstem: "Indus",
+    }],
+    ["Beas", {
+        source: "Solang valley",
+        states: ["Himachal Pradesh", "Punjab"],
+        countries: ["Pakistan"],
+        confluence: "Kapurthala",
+        mainstem: "Indus"
+    }],
+    ["Sutlej", {
+        source: "Lake Rakshastal",
+        states: ["Himachal Pradesh", "Punjab"],
+        countries: ["China", "Pakistan"],
+        confluence: "Mithankot",
+        mainstem: "Indus"
     }]
 ]);
 
