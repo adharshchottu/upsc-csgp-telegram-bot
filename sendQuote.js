@@ -22,7 +22,7 @@ function getCurrentDateIST() {
 
 function getDaysLeft() {
     const todayIST = getCurrentDateIST();
-    const targetDate = new Date('2024-05-26');
+    const targetDate = new Date('2025-05-23');
     const timeDifference = targetDate.getTime() - todayIST.getTime();
     const daysLeft = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
     return daysLeft;

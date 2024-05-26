@@ -9,7 +9,7 @@ const botToken = key.api_key;
 const bot = new TelegramBot(botToken);
 
 // Set the chat ID of the group you want to modify
-const chatId = key.test_chat;
+const chatId = key.target_chat_id;
 
 // Function to send a poll for the current question
 async function sendTermAndDefinition() {
