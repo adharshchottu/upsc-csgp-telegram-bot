@@ -114,6 +114,94 @@ const glossary = [
     {
         "term": "Atomic Energy",
         "definition": "The energy that is released through a nuclear reaction or radioactive decay process. Of particular interest is the process known as fission, which occurs in a nuclear reactor and produces energy usually in the form of heat. In a nuclear power plant, this heat is used to boil water in order to produce steam that can be used to drive large turbines. This, in turn, activates generators to produce electrical power. Atomic energy is more correctly called nuclear energy"
+    },
+    {
+        "term": "Backwater",
+        "definition": "A creek, arm of the sea or series of connected lagoons, usually parallel to the coast, separated from the sea by a narrow strip of land but communicating with it through barred outlets"
+    },
+    {
+        "term": "Barren and Unculturable Land",
+        "definition": "Land which cannot be brought under cultivation except at an exorbitant cost, are classified as unculturable whether such land is in isolated blocks or within cultivated holdings. Includes all barren and unculturable land like mountains, deserts, etc"
+    },
+    {
+        "term": "Barren Rocky/Stony Waste",
+        "definition": "Rock exposures of varying lithology often barren and devoid of soil and vegetation cover"
+    },
+    {
+        "term": "Below-Ground Biomass (BGB)",
+        "definition": "Component of carbon pool consisting of the biomass contained within live roots"
+    },
+    {
+        "term": "Biochemical Oxygen Demand (BOD)",
+        "definition": "Biochemical oxygen demand (BOD, also called biological oxygen demand) is the amount of dissolved oxygen needed (i.e. demanded) by aerobic biological organisms to break down organic material present in a given water sample at certain temperature over a specific time period. The BOD value is most commonly expressed in milligrams of oxygen consumed per litre of sample during 5 days of incubation at 20°C and is often used as a surrogate of the degree of organic pollution of water"
+    },
+    {
+        "term": "Biodiversity",
+        "definition": "Variability among living organisms from all sources including terrestrial, marine and other aquatic ecosystems and the ecological complexes of which they are part, including diversity within species, between species and of ecosystems. It is a measure of ecosystem health"
+    },
+    {
+        "term": "Biofuels",
+        "definition": "Gas or liquid fuel made from plant material (biomass). Includes wood, wood waste, wood liquors, peat, railroad ties, wood sludge, agricultural waste, straw, tires, fish oils, tall oil, sludge waste, waste alcohol, municipal solid waste, landfill gases, other waste and ethanol blended into motor gasoline"
+    },
+    {
+        "term": "Biogeographic Zone",
+        "definition": "Large distinctive units of similar ecology, biome representation, community, and species"
+    },
+    {
+        "term": "Biological Resources",
+        "definition": "Renewable resources that are capable of regeneration through natural (non−managed or managed) processes. Include timber and aquatic resources and a range of other animal and plant resources (such as livestock, orchards, crops and wild animals), fungi and bacteria"
+    },
+    {
+        "term": "Biomass",
+        "definition": "Refers to the density of organic matter expressed as ovendry tonnes per unit area"
+    },
+    {
+        "term": "Biome",
+        "definition": "A distinct community of plants, animals or fungi that occupy a distinct region. It is often referred to as an ecosystem"
+    },
+    {
+        "term": "Biosphere",
+        "definition": "Part of the Earth system comprising all ecosystems and living organisms, in the atmosphere, on land (terrestrial biosphere) or in the oceans (marine biosphere), including derived dead organic matter, such as litter, soil organic matter and oceanic detritus"
+    },
+    {
+        "term": "Biosphere Reserves",
+        "definition": "Large areas of biodiversity where flora and fauna are protected, with a view to achieve a balance between conserving biodiversity, encouraging economic and social development and preserving cultural values"
+    },
+    {
+        "term": "Biota",
+        "definition": "All animal and plant life of a particular region or time. Biotic (living) factors function with the abiotic (non−living) factors to form a complex unit such as an ecosystem"
+    },
+    {
+        "term": "Biotic",
+        "definition": "Relating to or resulting from living organisms"
+    },
+    {
+        "term": "Blue Carbon",
+        "definition": "Blue carbon is the carbon stored in coastal and marine ecosystems. Coastal ecosystems such as mangroves, tidal marshes and seagrass meadows sequester and store more carbon per unit area than terrestrial forests and are now being recognized for their role in mitigating climate change"
+    },
+    {
+        "term": "Blue Revolution",
+        "definition": "The Blue Revolution, with its multi-dimensional activities, focuses mainly on increasing fisheries production and productivity from aquaculture and fisheries"
+    },
+    {
+        "term": "Bore Holes",
+        "definition": "Deep round hole made by a special tool or machine, especially one that is made in the ground when searching for oil or water"
+    },
+    {
+        "term": "Boron",
+        "definition": "Boron, a chemical element, may occur in natural waters through weathering of rocks, soil leaching, or find its way into a watercourse through industrial waste effluents. Many cleaning compounds contains boron. Concentrations in unpolluted waters do not exceed 0.1 mg/L"
+    },
+    {
+        "term": "BPL Families",
+        "definition": "BPL or Below Poverty Line is an economic benchmark used by the Government in India to indicate economic disadvantage and to identify individuals and households in need of government assistance and aid. It is determined using various parameters which vary from state to state and within states"
+    },
+    {
+        "term": "Brackish Water",
+        "definition": "Water with salinity content between that of freshwater and marine water"
+    },
+    {
+        "term": "Built-up Land",
+        "definition": "Area of human habitation developed due to nonagricultural use and that has a cover of buildings, transport and communication, utilities in association with water, vegetation and vacant lands"
     }
 ];
 
