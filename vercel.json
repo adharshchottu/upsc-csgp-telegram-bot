@@ -44,6 +44,10 @@
       {
         "src": "rivers.js",
         "use": "@vercel/node"
+      },
+      {
+        "src": "glossary.js",
+        "use": "@vercel/node"
       }
     ],
     "routes": [
@@ -86,6 +90,10 @@
       {
         "src": "/rivers",
         "dest": "/rivers.js"
+      },
+      {
+        "src": "/glossary",
+        "dest": "/glossary.js"
       }
     ]
   }
