@@ -30,7 +30,7 @@ async function sendQuizPoll() {
     }
 
     let daysLeft = getDaysLeft();
-    const day = (325 % daysLeft) * 4;
+    const day = (367 % daysLeft) * 4;
     const currentHour = new Date().getHours();
     const currentQuarter = Math.floor(currentHour / 5);
     const questionIndex = day + currentQuarter >= 549 ? (day + currentQuarter - 549 + 1) : day + currentQuarter;
