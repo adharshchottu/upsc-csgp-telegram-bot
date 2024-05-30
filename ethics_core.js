@@ -433,7 +433,7 @@ const chatId = key.target_chat_id;
 // select ethics question to send
 let daysLeft = (() => {
     const currentDate = new Date();
-    const targetDate = new Date(2024, 4, 26);
+    const targetDate = new Date(2025, 4, 26);
     const diffInMilliseconds = targetDate.getTime() - currentDate.getTime();
     const daysDifference = Math.floor(
         diffInMilliseconds / (1000 * 60 * 60 * 24)
