@@ -29,9 +29,74 @@ function generateRiverQuestion() {
         return { key: randomPropertyName, value: obj[randomPropertyName] };
     };
 
+    // truncate describe list
+    const describeList = (items, type) => {
+        if (items && items.length > 0) {
+            const itemCount = items.length;
+            if (itemCount <= 3) {
+                return `${items.join(', ')}`;
+            } else {
+                const sampleItems = items.slice(0, 3);
+                return `${sampleItems.join(', ')}, and others`;
+            }
+        }
+        return '';
+    }
+
+    // generate the river detailed explanation
+    const generateRiverDescription = (river, details, exclude) => {
+        const { source, states, tributaries, countries, mainstem, confluence, mouth } = details;
+
+        let description = [];
+
+        if (source && exclude != 'source') {
+            description.push(`It originates from ${source}. `);
+        }
+
+        if (states && states.length > 0 && exclude != 'states') {
+            const stateDescription = describeList(states, 'state');
+            description.push(`It flows through ${states.length > 1 ? 'states' : 'the state'} including ${stateDescription}. `);
+        }
+
+        if (countries && countries.length > 0 && exclude != 'countries') {
+            const countryDescription = describeList(countries, 'country');
+            description.push(`This river spans across ${countries.length > 1 ? 'countries' : 'the country'} including ${countryDescription}. `);
+        }
+
+        if (tributaries && tributaries.length > 0 && exclude != 'countries') {
+            const tributaryCount = tributaries.length;
+            const tributaryDescription = describeList(tributaries, 'tributary');
+            description.push(`It has ${tributaryCount} notable ${tributaryCount === 1 ? 'tributary' : 'tributaries'}, including ${tributaryDescription}. `);
+        }
+
+        if (mainstem && exclude != 'mainstem') {
+            description.push(`It is a major tributary of the ${mainstem}. `);
+        }
+
+        if (confluence && exclude != 'confluence') {
+            description.push(`It meets with ${mainstem} at ${confluence}. `);
+        }
+
+        if (mouth && exclude != 'mouth') {
+            description.push(`It ultimately empties into ${mouth}. `);
+        }
+
+        let finalDescription = '';
+        for (let descriptionItem of description) {
+            if ((finalDescription + descriptionItem).length <= 200) {
+                finalDescription += descriptionItem + ' ';
+            } else {
+                break;
+            }
+        }
+
+        return finalDescription.trim();
+    }
+
     let questionRiverData = getRandomPairFromMap(riversMap);
     let [river, details] = questionRiverData;
     let { key, value } = getRandomProperty(details)
+    let explanation = generateRiverDescription(river, details, key);
 
     // if value is array add questionOptions. else 
     if (Array.isArray(value)) {
@@ -68,7 +133,7 @@ function generateRiverQuestion() {
                 let wrongOptions = [...Array.from(randomItems), answerValue];
                 const options = wrongOptions.sort(() => Math.random() - 0.5);
                 const answer = options.indexOf(answerValue);
-                return { question, options, answer }
+                return { question, options, answer, explanation }
             }
         }
     } else {
@@ -98,7 +163,7 @@ function generateRiverQuestion() {
                 let wrongOptions = [...Array.from(randomItems), answerValue];
                 const options = wrongOptions.sort(() => Math.random() - 0.5);
                 const answer = options.indexOf(answerValue);
-                return { question, options, answer }
+                return { question, options, answer, explanation }
             }
         }
     }
@@ -117,9 +182,9 @@ async function generateQuestion() {
             generateQuestion()
         }
         else {
-            const { question, options, answer } = questionObject
+            const { question, options, answer, explanation } = questionObject
             try {
-                await bot.sendPoll(chatId, question, options, { type: 'quiz', correct_option_id: answer });
+                await bot.sendPoll(chatId, question, options, { type: 'quiz', correct_option_id: answer, explanation: explanation });
                 console.log('Quiz poll sent successfully!');
             }
             catch (error) {
