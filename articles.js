@@ -1,6 +1,5 @@
 const TelegramBot = require('node-telegram-bot-api');
 const key = require('./key.json')
-const quizData = require('./data/articles')
 const quizHightlight = require('./data/articleHighlight')
 
 // Set up the Telegram bot API token
@@ -16,7 +15,7 @@ const chatId = key.target_chat_id;
 async function sendQuizPoll() {
 
     // select which data to use - full article or highlighted article
-    const dataSet = (Math.floor(Math.random() * 20) + 1) % 2 === 0 ? quizData : quizHightlight;
+    const dataSet = quizHightlight;
     // select which method - article number as question or answer
     const numberMethod = (Math.floor(Math.random() * 20) + 1) % 2 === 0 ? true : false;
     // generate four unique index for aricles from the data set
@@ -44,6 +43,7 @@ async function sendQuizPoll() {
     const answer = !numberMethod ? `Article ${selectedArticlesObject[0].articleNo}` : selectedArticlesObject[0].article.replace(/\n\s*/g, '');
     const unshuffledOptions = numberMethod ? selectedArticlesObject.map(d => d.article) : selectedArticlesObject.map(d => d.articleNo).map(d => `Article ${d}`);
     const options = shuffleArray(unshuffledOptions).map(d => d.replace(/\n\s*/g, ''));
+    const explanation = `Article ${selectedArticlesObject[0].articleNo} is in part ${selectedArticlesObject[0].part} of the Indian Constitution`
     const correct_option_id = options.findIndex((item) => {
         return item == answer;
     });
@@ -65,7 +65,7 @@ async function sendQuizPoll() {
                 console.log('Question sent as a message.');
 
                 // Create the poll using the 'sendPoll' method
-                await bot.sendPoll(chatId, "Select the correct match", ["1", "2", "3", "4"], { type: 'quiz', correct_option_id: correct_option_id });
+                await bot.sendPoll(chatId, "Select the correct match", ["1", "2", "3", "4"], { type: 'quiz', correct_option_id: correct_option_id, explanation: explanation });
                 console.log('Quiz poll sent successfully!');
             } else {
                 // Prepare the poll question as text
@@ -73,7 +73,7 @@ async function sendQuizPoll() {
                 console.log('Question sent as a message.');
 
                 // Create the poll using the 'sendPoll' method
-                await bot.sendPoll(chatId, "Select the correct match", options, { type: 'quiz', correct_option_id: correct_option_id });
+                await bot.sendPoll(chatId, "Select the correct match", options, { type: 'quiz', correct_option_id: correct_option_id, explanation: explanation });
                 console.log('Quiz poll sent successfully!');
             }
         } else {
@@ -85,11 +85,11 @@ async function sendQuizPoll() {
                 console.log('Question sent as a message.');
 
                 // Create the poll using the 'sendPoll' method
-                await bot.sendPoll(chatId, "Select the correct match", ["1", "2", "3", "4"], { type: 'quiz', correct_option_id: correct_option_id });
+                await bot.sendPoll(chatId, "Select the correct match", ["1", "2", "3", "4"], { type: 'quiz', correct_option_id: correct_option_id, explanation: explanation });
                 console.log('Quiz poll sent successfully!');
             } else {
                 // Create the poll using the 'sendPoll' method with just the question and options
-                await bot.sendPoll(chatId, question, options, { type: 'quiz', correct_option_id: correct_option_id });
+                await bot.sendPoll(chatId, question, options, { type: 'quiz', correct_option_id: correct_option_id, explanation: explanation });
                 console.log('Quiz poll sent successfully!');
             }
 
