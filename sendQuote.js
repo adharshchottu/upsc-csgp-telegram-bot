@@ -29,7 +29,7 @@ function getDaysLeft() {
 }
 
 let daysLeft = getDaysLeft();
-const day = (367 % daysLeft) * 4;
+const day = (224 % daysLeft) * 4;
 const currentHour = new Date().getHours();
 const currentQuarter = Math.floor(currentHour / 5);
 const quoteIndex = day + currentQuarter >= 268 ? (day + currentQuarter - 268 + 1) : day + currentQuarter;

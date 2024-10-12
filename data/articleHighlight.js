@@ -890,6 +890,151 @@ const articlesHighlightDataSet = [
         "part": "V"
     },
     {
+        "articleNo": "152",
+        "article": `Definition of state`,
+        "part": "VI"
+    },
+    {
+        "articleNo": "153",
+        "article": `Governors of States`,
+        "part": "VI"
+    },
+    {
+        "articleNo": "154",
+        "article": `Executive power of State`,
+        "part": "VI"
+    },
+    {
+        "articleNo": "155",
+        "article": `Appointment of Governor`,
+        "part": "VI"
+    },
+    {
+        "articleNo": "156",
+        "article": `Term of office of Governor`,
+        "part": "VI"
+    },
+    {
+        "articleNo": "157",
+        "article": `Qualifications for appointment as Governor`,
+        "part": "VI"
+    },
+    {
+        "articleNo": "158",
+        "article": `Conditions of Governor’s office`,
+        "part": "VI"
+    },
+    {
+        "articleNo": "159",
+        "article": `Oath or affirmation by the Governor`,
+        "part": "VI"
+    },
+    {
+        "articleNo": "160",
+        "article": `Discharge of the functions of the Governor in certain contingencies`,
+        "part": "VI"
+    },
+    {
+        "articleNo": "161",
+        "article": `Power of Governor to grant pardons, etc., and to suspend, remit or commute sentences in certain cases`,
+        "part": "VI"
+    },
+    {
+        "articleNo": "162",
+        "article": `Extent of executive power of State`,
+        "part": "VI"
+    },
+    {
+        "articleNo": "163",
+        "article": `Council of Ministers to aid and advise Governor`,
+        "part": "VI"
+    },
+    {
+        "articleNo": "164",
+        "article": `Other provisions as to Ministers in State Legislature`,
+        "part": "VI"
+    },
+    {
+        "articleNo": "165",
+        "article": `Advocate-General for the State`,
+        "part": "VI"
+    },
+    {
+        "articleNo": "166",
+        "article": `Conduct of business of the Government of a State`,
+        "part": "VI"
+    },
+    {
+        "articleNo": "167",
+        "article": `Duties of Chief Minister as respects the furnishing of information to Governor, etc`,
+        "part": "VI"
+    },
+    {
+        "articleNo": "168",
+        "article": `Constitution of Legislatures in States`,
+        "part": "VI"
+    },
+    {
+        "articleNo": "169",
+        "article": `Abolition or creation of Legislative Councils in States`,
+        "part": "VI"
+    },
+    {
+        "articleNo": "170",
+        "article": `Composition of the Legislative Assemblies`,
+        "part": "VI"
+    },
+    {
+        "articleNo": "171",
+        "article": `Composition of the Legislative Councils`,
+        "part": "VI"
+    },
+    {
+        "articleNo": "172",
+        "article": `Duration of State Legislatures`,
+        "part": "VI"
+    },
+    {
+        "articleNo": "173",
+        "article": `Qualification for membership of the State Legislature`,
+        "part": "VI"
+    },
+    {
+        "articleNo": "174",
+        "article": `Sessions of the State Legislature, prorogation and dissolution`,
+        "part": "VI"
+    },
+    {
+        "articleNo": "175",
+        "article": `Right of Governor to address and send messages to the House or Houses`,
+        "part": "VI"
+    },
+    {
+        "articleNo": "176",
+        "article": `Special address by the Governor`,
+        "part": "VI"
+    },
+    {
+        "articleNo": "177",
+        "article": `Rights of Ministers and Advocate-General as respects the Houses`,
+        "part": "VI"
+    },
+    {
+        "articleNo": "178",
+        "article": `The Speaker and Deputy Speaker of the Legislative Assembly`,
+        "part": "VI"
+    },
+    {
+        "articleNo": "179",
+        "article": `Vacation and resignation of, and removal from, the offices of Speaker and Deputy Speaker`,
+        "part": "VI"
+    },
+    {
+        "articleNo": "180",
+        "article": `Power of the Deputy Speaker or other person to perform the duties of the office of, or to act as, Speaker`,
+        "part": "VI"
+    },
+    {
         "articleNo": "324",
         "article": `Superintendence, direction and control of elections to be vested in an Election Commission`,
         "part": "XV"
