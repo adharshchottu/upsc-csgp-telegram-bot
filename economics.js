@@ -3138,16 +3138,6 @@ const economicsDataSet = [
         ]
     },
     {
-        "question": "The theme for the ‘Financial Literacy Week’ 2023 is",
-        "answer": 1,
-        "options": [
-            "Go digital, go secure",
-            "Good financial behaviour – your saviour",
-            "Micro Small and Medium Enterprises",
-            "Credit Discipline and Credit from Formal Institutions"
-        ]
-    },
-    {
         "question": "Which of the following statements are true regarding 'Domestic Systemically Important Banks (DSIB)':",
         "questionOptions": [
             "These are also called 'too big to fail'",
