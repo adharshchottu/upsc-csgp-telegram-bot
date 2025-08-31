@@ -48,6 +48,42 @@
       {
         "src": "glossary.js",
         "use": "@vercel/node"
+      },
+      {
+        "src": "pyq/geography.js",
+        "use": "@vercel/node"
+      },
+      {
+        "src": "pyq/economy.js",
+        "use": "@vercel/node"
+      },
+      {
+        "src": "pyq/polity.js",
+        "use": "@vercel/node"
+      },
+      {
+        "src": "pyq/society.js",
+        "use": "@vercel/node"
+      },
+      {
+        "src": "pyq/agriculture.js",
+        "use": "@vercel/node"
+      },
+      {
+        "src": "pyq/artAndCulture.js",
+        "use": "@vercel/node"
+      },
+      {
+        "src": "pyq/constitution.js",
+        "use": "@vercel/node"
+      },
+      {
+        "src": "pyq/environment.js",
+        "use": "@vercel/node"
+      },
+      {
+        "src": "pyq/governance.js",
+        "use": "@vercel/node"
       }
     ],
     "routes": [
@@ -94,6 +130,42 @@
       {
         "src": "/glossary",
         "dest": "/glossary.js"
+      },
+      {
+        "src": "/geography-pyq",
+        "dest": "/pyq/geography.js"
+      },
+      {
+        "src": "/economy-pyq",
+        "dest": "/pyq/economy.js"
+      },
+      {
+        "src": "/polity-pyq",
+        "dest": "/pyq/polity.js"
+      },
+      {
+        "src": "/society-pyq",
+        "dest": "/pyq/society.js"
+      },
+      {
+        "src": "/agriculture-pyq",
+        "dest": "/pyq/agriculture.js"
+      },
+      {
+        "src": "/artandculture-pyq",
+        "dest": "/pyq/artAndCulture.js"
+      },
+      {
+        "src": "/constitution-pyq",
+        "dest": "/pyq/constitution.js"
+      },
+      {
+        "src": "/environment-pyq",
+        "dest": "/pyq/environment.js"
+      },
+      {
+        "src": "/governance-pyq",
+        "dest": "/pyq/governance.js"
       }
     ]
   }
