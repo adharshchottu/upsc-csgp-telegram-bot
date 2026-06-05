@@ -23,7 +23,7 @@ let daysLeft = (() => {
 
   function getDaysLeft() {
     const todayIST = getCurrentDateIST();
-    const targetDate = new Date('2026-05-24');
+    const targetDate = new Date('2026-08-21');
     const timeDifference = targetDate.getTime() - todayIST.getTime();
     const daysLeft = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
     return daysLeft;
@@ -31,11 +31,11 @@ let daysLeft = (() => {
 
   const daysDifference = getDaysLeft();
   if (daysDifference == 0) {
-    return `Prelims! 😇😱🥳`;
+    return `Mains! 😇😱🥳`;
   } else if (daysDifference == 1) {
-    return `Tomorrow prelims 😱`;
+    return `Tomorrow mains 😱`;
   } else if (daysDifference > 1){
-    return `${daysDifference} days to prelims 🎯`;
+    return `${daysDifference} days to mains 🎯`;
   }
   else{
     return `Target UPSC CSGP 😈`;
